@@ -111,6 +111,8 @@
             this.Controls.Add(this.threeDimensionalButton);
             this.Controls.Add(this.twoDimensionalButton);
             this.Controls.Add(this.shapeChoosingLabel);
+            this.MaximumSize = new System.Drawing.Size(1100, 650);
+            this.MinimumSize = new System.Drawing.Size(1100, 650);
             this.Name = "mainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MathProblemSolver";
