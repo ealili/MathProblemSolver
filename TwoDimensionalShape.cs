@@ -11,10 +11,14 @@ namespace MathProblemSolver
         public abstract double calculatePerimeter();
         public abstract double calculateArea();
         //public abstract void validateInput();
+
         protected double Base;
+        protected double height;
         protected double side1;
         protected double side2;
+        protected double side3;
         protected double radius;
+        public const double pi = 3.1415265352429;
     }
 
     class ValidationFunctions
