@@ -36,5 +36,12 @@ namespace MathProblemSolver
         {
             threeDimensionalButton.Size = new Size(140, 140);
         }
+
+        private void twoDimensionalButton_Click(object sender, EventArgs e)
+        {
+            _2dForm twoD = new _2dForm();
+            this.Hide();
+            twoD.Show();
+        }
     }
 }

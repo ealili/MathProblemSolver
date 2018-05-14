@@ -34,8 +34,6 @@
             this.twoDimensionalButton = new System.Windows.Forms.Button();
             this.headerPanel = new System.Windows.Forms.Panel();
             this.threeDimensionalButton = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.headerPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -81,6 +79,7 @@
             this.twoDimensionalButton.Size = new System.Drawing.Size(146, 146);
             this.twoDimensionalButton.TabIndex = 2;
             this.twoDimensionalButton.UseVisualStyleBackColor = false;
+            this.twoDimensionalButton.Click += new System.EventHandler(this.twoDimensionalButton_Click);
             this.twoDimensionalButton.MouseLeave += new System.EventHandler(this.twoDimensionalButton_MouseLeave);
             this.twoDimensionalButton.MouseHover += new System.EventHandler(this.twoDimensionalButton_MouseHover);
             // 
@@ -88,10 +87,10 @@
             // 
             this.headerPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.headerPanel.Controls.Add(this.titleLabel);
-            this.headerPanel.Location = new System.Drawing.Point(1, 0);
+            this.headerPanel.Location = new System.Drawing.Point(-3, 0);
             this.headerPanel.Margin = new System.Windows.Forms.Padding(2);
             this.headerPanel.Name = "headerPanel";
-            this.headerPanel.Size = new System.Drawing.Size(812, 98);
+            this.headerPanel.Size = new System.Drawing.Size(816, 98);
             this.headerPanel.TabIndex = 4;
             // 
             // threeDimensionalButton
@@ -114,34 +113,6 @@
             this.threeDimensionalButton.MouseLeave += new System.EventHandler(this.threeDimensionalButton_MouseLeave);
             this.threeDimensionalButton.MouseHover += new System.EventHandler(this.threeDimensionalButton_MouseHover);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Snow;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(52, 223);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(138, 168);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Square\r\nTriangle\r\nRectangle\r\nParallelogram\r\nTrapezoid\r\nPentagon\r\nCircle";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Snow;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(618, 235);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(158, 144);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Cube \r\nCuboid\r\nCylinder\r\nSquare Pyramid\r\nSphere\r\nCone\r\n";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -149,13 +120,11 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(813, 496);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.headerPanel);
             this.Controls.Add(this.threeDimensionalButton);
             this.Controls.Add(this.twoDimensionalButton);
             this.Controls.Add(this.shapeChoosingLabel);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximumSize = new System.Drawing.Size(829, 535);
@@ -176,8 +145,6 @@
         private System.Windows.Forms.Button twoDimensionalButton;
         private System.Windows.Forms.Panel headerPanel;
         private System.Windows.Forms.Button threeDimensionalButton;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
     }
 }
 
