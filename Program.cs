@@ -17,6 +17,14 @@ namespace MathProblemSolver
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new mainForm());
+
+        //    void ValidateInput()
+        //    {
+
+        //    }
         }
+
+
     }
+    
 }
