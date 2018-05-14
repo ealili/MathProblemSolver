@@ -20,7 +20,7 @@ namespace MathProblemSolver
         private void triangleLabel_Click(object sender, EventArgs e)
         {
             triangleForm tForm = new triangleForm();
-            this.Hide();
+            this.Visible = false;
             tForm.Show();
         }
     }
