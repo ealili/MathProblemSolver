@@ -23,5 +23,15 @@ namespace MathProblemSolver
             this.Hide();
             tForm.Show();
         }
+
+        private void _2dForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
