@@ -32,10 +32,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.squareLabel = new System.Windows.Forms.Label();
             this.triangleLabel = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.rectangleLabel = new System.Windows.Forms.Label();
+            this.circleLabel = new System.Windows.Forms.Label();
+            this.trapezoidLabel = new System.Windows.Forms.Label();
+            this.parallelogramLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -70,60 +70,60 @@
             this.triangleLabel.Text = "Triangle";
             this.triangleLabel.Click += new System.EventHandler(this.triangleLabel_Click);
             // 
-            // label2
+            // rectangleLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(609, 171);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 20);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Rectangle";
+            this.rectangleLabel.AutoSize = true;
+            this.rectangleLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rectangleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rectangleLabel.Location = new System.Drawing.Point(609, 171);
+            this.rectangleLabel.Name = "rectangleLabel";
+            this.rectangleLabel.Size = new System.Drawing.Size(91, 20);
+            this.rectangleLabel.TabIndex = 3;
+            this.rectangleLabel.Text = "Rectangle";
             // 
-            // label3
+            // circleLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(101, 381);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 20);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Circle";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.circleLabel.AutoSize = true;
+            this.circleLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.circleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.circleLabel.Location = new System.Drawing.Point(101, 381);
+            this.circleLabel.Name = "circleLabel";
+            this.circleLabel.Size = new System.Drawing.Size(54, 20);
+            this.circleLabel.TabIndex = 4;
+            this.circleLabel.Text = "Circle";
+            this.circleLabel.Click += new System.EventHandler(this.label3_Click);
             // 
-            // label4
+            // trapezoidLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(346, 381);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(88, 20);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Trapezoid";
+            this.trapezoidLabel.AutoSize = true;
+            this.trapezoidLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.trapezoidLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.trapezoidLabel.Location = new System.Drawing.Point(346, 381);
+            this.trapezoidLabel.Name = "trapezoidLabel";
+            this.trapezoidLabel.Size = new System.Drawing.Size(88, 20);
+            this.trapezoidLabel.TabIndex = 5;
+            this.trapezoidLabel.Text = "Trapezoid";
             // 
-            // label5
+            // parallelogramLabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(609, 381);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(118, 20);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "Parallelogram";
+            this.parallelogramLabel.AutoSize = true;
+            this.parallelogramLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.parallelogramLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.parallelogramLabel.Location = new System.Drawing.Point(609, 381);
+            this.parallelogramLabel.Name = "parallelogramLabel";
+            this.parallelogramLabel.Size = new System.Drawing.Size(118, 20);
+            this.parallelogramLabel.TabIndex = 6;
+            this.parallelogramLabel.Text = "Parallelogram";
             // 
             // _2dForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(813, 496);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.parallelogramLabel);
+            this.Controls.Add(this.trapezoidLabel);
+            this.Controls.Add(this.circleLabel);
+            this.Controls.Add(this.rectangleLabel);
             this.Controls.Add(this.triangleLabel);
             this.Controls.Add(this.squareLabel);
             this.Controls.Add(this.label1);
@@ -145,9 +145,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label squareLabel;
         private System.Windows.Forms.Label triangleLabel;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label rectangleLabel;
+        private System.Windows.Forms.Label circleLabel;
+        private System.Windows.Forms.Label trapezoidLabel;
+        private System.Windows.Forms.Label parallelogramLabel;
     }
 }
