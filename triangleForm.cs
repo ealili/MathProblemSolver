@@ -30,26 +30,19 @@ namespace MathProblemSolver
                 //Creating a Triangle object
                 Triangle triangle = new Triangle(baseLength, side1, side2);
                 showArea.Text = "The area is " + triangle.calculateArea().ToString();
+                showPerimeter.Text = "The perimeter is " + triangle.calculatePerimeter().ToString();
             }
             else
             {
                 MessageBox.Show("Please enter valid values!", "Warning");
             }
+        }
 
-          
-            //try
-            //{
-            //    baseLength = double.Parse(getBase.Text);
-            //    height = double.Parse(getHeight.Text);
-            //    double area = baseLength * height / 2;
-            //    showArea.Text = "The area is " + area.ToString();
-            //}
-            //catch
-            //{
-            //    MessageBox.Show("Please enter valid values for length and height.");
-
-            //}
-
+        private void triangleBackButton_Click(object sender, EventArgs e)
+        {
+            _2dForm twoD = new _2dForm();
+            this.Hide();
+            twoD.Show();
         }
     }
 }

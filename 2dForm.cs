@@ -16,22 +16,32 @@ namespace MathProblemSolver
         {
             InitializeComponent();
         }
-
-        private void triangleLabel_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
-            triangleForm tForm = new triangleForm();
+            MainForm mainForm = new MainForm();
             this.Hide();
-            tForm.Show();
+            mainForm.Show();
         }
 
-        private void _2dForm_Load(object sender, EventArgs e)
+        private void triangleButton_Click(object sender, EventArgs e)
         {
-
+            triangleForm triangleForm = new triangleForm();
+            this.Hide();
+            triangleForm.Show();
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void rectangleButton_Click(object sender, EventArgs e)
         {
+            RectangleForm rectangleForm = new RectangleForm();
+            this.Hide();
+            rectangleForm.Show();
+        }
 
+        private void squareButton_Click(object sender, EventArgs e)
+        {
+            SquareForm squareForm = new SquareForm();
+            this.Hide();
+            squareForm.Show();
         }
     }
 }

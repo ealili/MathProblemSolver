@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MathProblemSolver
 {
-    public partial class mainForm : Form
+    public partial class MainForm : Form
     {
-        public mainForm()
+        public MainForm()
         {
             InitializeComponent();
         }
