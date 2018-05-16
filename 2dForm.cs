@@ -43,5 +43,12 @@ namespace MathProblemSolver
             this.Hide();
             squareForm.Show();
         }
+
+        private void circleButton_Click(object sender, EventArgs e)
+        {
+            CircleForm circleForm = new CircleForm();
+            this.Hide();
+            circleForm.Show();
+        }
     }
 }

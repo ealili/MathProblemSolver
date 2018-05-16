@@ -101,6 +101,7 @@
             this.circleButton.TabIndex = 11;
             this.circleButton.Text = "Circle";
             this.circleButton.UseVisualStyleBackColor = true;
+            this.circleButton.Click += new System.EventHandler(this.circleButton_Click);
             // 
             // trapezoidButton
             // 

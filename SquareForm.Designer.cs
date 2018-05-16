@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SquareForm));
             this.squareBackButton = new System.Windows.Forms.Label();
             this.squareSideLabel = new System.Windows.Forms.Label();
-            this.getSide = new System.Windows.Forms.TextBox();
+            this.getBase = new System.Windows.Forms.TextBox();
             this.calcButton = new System.Windows.Forms.Button();
             this.showArea = new System.Windows.Forms.Label();
             this.showPerimeter = new System.Windows.Forms.Label();
@@ -59,12 +59,12 @@
             this.squareSideLabel.TabIndex = 1;
             this.squareSideLabel.Text = "Enter the side of the square";
             // 
-            // getSide
+            // getBase
             // 
-            this.getSide.Location = new System.Drawing.Point(429, 242);
-            this.getSide.Name = "getSide";
-            this.getSide.Size = new System.Drawing.Size(100, 20);
-            this.getSide.TabIndex = 2;
+            this.getBase.Location = new System.Drawing.Point(429, 242);
+            this.getBase.Name = "getBase";
+            this.getBase.Size = new System.Drawing.Size(100, 20);
+            this.getBase.TabIndex = 2;
             // 
             // calcButton
             // 
@@ -87,7 +87,7 @@
             // showPerimeter
             // 
             this.showPerimeter.AutoSize = true;
-            this.showPerimeter.Location = new System.Drawing.Point(158, 357);
+            this.showPerimeter.Location = new System.Drawing.Point(161, 371);
             this.showPerimeter.Name = "showPerimeter";
             this.showPerimeter.Size = new System.Drawing.Size(0, 13);
             this.showPerimeter.TabIndex = 5;
@@ -100,7 +100,7 @@
             this.Controls.Add(this.showPerimeter);
             this.Controls.Add(this.showArea);
             this.Controls.Add(this.calcButton);
-            this.Controls.Add(this.getSide);
+            this.Controls.Add(this.getBase);
             this.Controls.Add(this.squareSideLabel);
             this.Controls.Add(this.squareBackButton);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -118,7 +118,7 @@
 
         private System.Windows.Forms.Label squareBackButton;
         private System.Windows.Forms.Label squareSideLabel;
-        private System.Windows.Forms.TextBox getSide;
+        private System.Windows.Forms.TextBox getBase;
         private System.Windows.Forms.Button calcButton;
         private System.Windows.Forms.Label showArea;
         private System.Windows.Forms.Label showPerimeter;

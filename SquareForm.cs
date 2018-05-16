@@ -19,7 +19,21 @@ namespace MathProblemSolver
 
         private void calcButton_Click(object sender, EventArgs e)
         {
-            
+            try
+            {
+                double baseLength = double.Parse(getBase.Text);
+                Square square = new Square(baseLength);
+                showArea.Text = "The area is " + square.calculateArea().ToString();
+                showPerimeter.Text = "The perimeter is " + square.calculatePerimeter().ToString();
+            }
+            catch
+            {
+                MessageBox.Show("Invalid Input!", "Warning");
+                showArea.Text = "";
+                showPerimeter.Text = "";
+                getBase.Text = "";
+            }
+
         }
 
         private void squareBackButton_Click(object sender, EventArgs e)
