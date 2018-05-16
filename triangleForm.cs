@@ -29,7 +29,7 @@ namespace MathProblemSolver
                 baseLength = double.Parse(getBase.Text);
                 //Creating a Triangle object
                 Triangle triangle = new Triangle(baseLength, side1, side2);
-                showArea.Text = "The area is " + triangle.calculateArea().ToString();
+                showArea.Text = "The area is " + TwoDimensionalShape.setPrecision(triangle.calculateArea()); 
                 showPerimeter.Text = "The perimeter is " + triangle.calculatePerimeter().ToString();
             }
             else

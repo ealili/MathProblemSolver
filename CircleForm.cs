@@ -30,8 +30,8 @@ namespace MathProblemSolver
             {
                 double radius = double.Parse(getRadius.Text);
                 Circle circle = new Circle(radius);
-                showArea.Text = "The area is " + circle.calculateArea().ToString();
-                showPerimeter.Text = "The circumference is " + circle.calculatePerimeter().ToString();
+                showArea.Text = "The area is " + TwoDimensionalShape.setPrecision(circle.calculateArea());
+                showPerimeter.Text = "The circumference is " + TwoDimensionalShape.setPrecision(circle.calculatePerimeter());
             }
             catch
             {
