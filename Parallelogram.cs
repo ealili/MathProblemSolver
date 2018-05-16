@@ -12,7 +12,6 @@ namespace MathProblemSolver
         {
             this.Base = Base;
             this.side1 = side1;
-            
         }
 
         public override double calculateArea()
