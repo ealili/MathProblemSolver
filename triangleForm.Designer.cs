@@ -31,11 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(triangleForm));
             this.baseLabel = new System.Windows.Forms.Label();
             this.getBase = new System.Windows.Forms.TextBox();
-            this.heightLabel = new System.Windows.Forms.Label();
-            this.getHeight = new System.Windows.Forms.TextBox();
+            this.side1Label = new System.Windows.Forms.Label();
+            this.getSide1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.showArea = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.getSide2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // baseLabel
@@ -50,27 +52,27 @@
             // 
             // getBase
             // 
-            this.getBase.Location = new System.Drawing.Point(403, 173);
+            this.getBase.Location = new System.Drawing.Point(425, 171);
             this.getBase.Name = "getBase";
             this.getBase.Size = new System.Drawing.Size(100, 20);
             this.getBase.TabIndex = 1;
             // 
-            // heightLabel
+            // side1Label
             // 
-            this.heightLabel.AutoSize = true;
-            this.heightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.heightLabel.Location = new System.Drawing.Point(202, 233);
-            this.heightLabel.Name = "heightLabel";
-            this.heightLabel.Size = new System.Drawing.Size(139, 20);
-            this.heightLabel.TabIndex = 2;
-            this.heightLabel.Text = "Enter the height";
+            this.side1Label.AutoSize = true;
+            this.side1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.side1Label.Location = new System.Drawing.Point(202, 233);
+            this.side1Label.Name = "side1Label";
+            this.side1Label.Size = new System.Drawing.Size(126, 20);
+            this.side1Label.TabIndex = 2;
+            this.side1Label.Text = "Enter one side";
             // 
-            // getHeight
+            // getSide1
             // 
-            this.getHeight.Location = new System.Drawing.Point(403, 233);
-            this.getHeight.Name = "getHeight";
-            this.getHeight.Size = new System.Drawing.Size(100, 20);
-            this.getHeight.TabIndex = 3;
+            this.getSide1.Location = new System.Drawing.Point(425, 233);
+            this.getSide1.Name = "getSide1";
+            this.getSide1.Size = new System.Drawing.Size(100, 20);
+            this.getSide1.TabIndex = 3;
             // 
             // label1
             // 
@@ -86,14 +88,14 @@
             // 
             this.showArea.AutoSize = true;
             this.showArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showArea.Location = new System.Drawing.Point(206, 319);
+            this.showArea.Location = new System.Drawing.Point(202, 355);
             this.showArea.Name = "showArea";
             this.showArea.Size = new System.Drawing.Size(0, 20);
             this.showArea.TabIndex = 5;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(573, 187);
+            this.button1.Location = new System.Drawing.Point(596, 209);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(151, 44);
             this.button1.TabIndex = 6;
@@ -101,16 +103,35 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(202, 294);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(169, 20);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Enter the other side";
+            // 
+            // getSide2
+            // 
+            this.getSide2.Location = new System.Drawing.Point(425, 296);
+            this.getSide2.Name = "getSide2";
+            this.getSide2.Size = new System.Drawing.Size(100, 20);
+            this.getSide2.TabIndex = 8;
+            // 
             // triangleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(813, 496);
+            this.Controls.Add(this.getSide2);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.showArea);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.getHeight);
-            this.Controls.Add(this.heightLabel);
+            this.Controls.Add(this.getSide1);
+            this.Controls.Add(this.side1Label);
             this.Controls.Add(this.getBase);
             this.Controls.Add(this.baseLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -129,10 +150,12 @@
 
         private System.Windows.Forms.Label baseLabel;
         private System.Windows.Forms.TextBox getBase;
-        private System.Windows.Forms.Label heightLabel;
-        private System.Windows.Forms.TextBox getHeight;
+        private System.Windows.Forms.Label side1Label;
+        private System.Windows.Forms.TextBox getSide1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label showArea;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox getSide2;
     }
 }

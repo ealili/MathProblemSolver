@@ -16,8 +16,8 @@ namespace MathProblemSolver
         public Triangle(double Base, double side1, double side2)
         {
             this.Base = Base;
-            this.side1 = Base;
-            this.side2 = Base;
+            this.side1 = side1;
+            this.side2 = side2;
         }
 
         public override double calculateArea()

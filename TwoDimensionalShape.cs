@@ -10,7 +10,6 @@ namespace MathProblemSolver
     {
         public abstract double calculatePerimeter();
         public abstract double calculateArea();
-        //public abstract void validateInput();
 
         protected double Base;
         protected double height;
@@ -23,6 +22,7 @@ namespace MathProblemSolver
 
     class ValidationFunctions
     {
+        //Function to validate the input type
         static public bool validateDoubleInput(string a)
         {
             double outValue;

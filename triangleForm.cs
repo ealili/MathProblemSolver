@@ -19,20 +19,24 @@ namespace MathProblemSolver
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double baseLength, height;
-
-            if (ValidationFunctions.validateDoubleInput(getHeight.Text) && 
-                ValidationFunctions.validateDoubleInput(getBase.Text)) {
+            double baseLength, side1, side2;
+            if (ValidationFunctions.validateDoubleInput(getBase.Text)
+                && ValidationFunctions.validateDoubleInput(getSide1.Text)
+                && ValidationFunctions.validateDoubleInput(getSide2.Text))
+            {
+                side1 = double.Parse(getSide1.Text);
+                side2 = double.Parse(getSide2.Text);
                 baseLength = double.Parse(getBase.Text);
-                height = double.Parse(getHeight.Text);
-                double area = baseLength * height / 2;
-                showArea.Text = "The area is " + area.ToString();
+                //Creating a Triangle object
+                Triangle triangle = new Triangle(baseLength, side1, side2);
+                showArea.Text = "The area is " + triangle.calculateArea().ToString();
             }
             else
             {
-                //We have a problem
-                MessageBox.Show("Please enter valid values for length and height.");
+                MessageBox.Show("Please enter valid values!", "Warning");
             }
+
+          
             //try
             //{
             //    baseLength = double.Parse(getBase.Text);
