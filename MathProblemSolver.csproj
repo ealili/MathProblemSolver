@@ -74,6 +74,7 @@
       <DependentUpon>RectangleForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Sphere.cs" />
+    <Compile Include="Square.cs" />
     <Compile Include="SquareForm.cs">
       <SubType>Form</SubType>
     </Compile>

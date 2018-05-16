@@ -115,7 +115,7 @@
             // 
             this.parallelogramButton.Location = new System.Drawing.Point(578, 377);
             this.parallelogramButton.Name = "parallelogramButton";
-            this.parallelogramButton.Size = new System.Drawing.Size(75, 23);
+            this.parallelogramButton.Size = new System.Drawing.Size(84, 23);
             this.parallelogramButton.TabIndex = 13;
             this.parallelogramButton.Text = "Parallelogram";
             this.parallelogramButton.UseVisualStyleBackColor = true;
