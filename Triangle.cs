@@ -13,24 +13,24 @@ namespace MathProblemSolver
        // protected double side2;
 
 
-        public Triangle(double Base, double side1, double side2)
+        public Triangle(double Base, double side, double side1)
         {
             this.Base = Base;
+            this.side = side;
             this.side1 = side1;
-            this.side2 = side2;
         }
 
         public override double calculateArea()
         {
             double s, area;
-            s = (Base + side1 + side2) / 2;
-            area = (s * (s - Base) * (s - side1) * (s - side2));
+            s = (Base + side + side1) / 2;
+            area = (s * (s - Base) * (s - side) * (s - side1));
             return area;
         }
 
         public override double calculatePerimeter()
         {
-            return Base + side1 + side2;
+            return Base + side + side1;
         }
 
     }

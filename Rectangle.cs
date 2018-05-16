@@ -10,20 +10,20 @@ namespace MathProblemSolver
 {
     class Rectangle: TwoDimensionalShape
     {
-        public Rectangle(double Base, double side1)
+        public Rectangle(double Base, double height)
         {
             this.Base = Base;
-            this.side1 = side1;
+            this.height = height;
         }
 
         public override double calculateArea()
         {
-            return Base * side1;
+            return Base * height;
         }
 
         public override double calculatePerimeter()
         {
-            return 2 * (Base + side1);
+            return 2 * (Base + height);
         }
         
     }

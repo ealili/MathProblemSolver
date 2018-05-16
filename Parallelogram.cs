@@ -8,10 +8,11 @@ namespace MathProblemSolver
 {
     class Parallelogram:TwoDimensionalShape
     {
-        Parallelogram(double Base, double side1)
+        Parallelogram(double Base, double side, double height)
         {
             this.Base = Base;
-            this.side1 = side1;
+            this.side = side;
+            this.height = height;
         }
 
         public override double calculateArea()
@@ -21,7 +22,7 @@ namespace MathProblemSolver
 
         public override double calculatePerimeter()
         {
-            return 2*(Base+side1);
+            return 2*(Base+side);
         }
 
     }
