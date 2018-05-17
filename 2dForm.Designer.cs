@@ -111,6 +111,7 @@
             this.trapezoidButton.TabIndex = 12;
             this.trapezoidButton.Text = "Trapezoid";
             this.trapezoidButton.UseVisualStyleBackColor = true;
+            this.trapezoidButton.Click += new System.EventHandler(this.trapezoidButton_Click);
             // 
             // parallelogramButton
             // 

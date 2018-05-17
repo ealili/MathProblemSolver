@@ -89,6 +89,12 @@
     </Compile>
     <Compile Include="ThreeDimensionalShape.cs" />
     <Compile Include="Trapezoid.cs" />
+    <Compile Include="TrapezoidForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrapezoidForm.Designer.cs">
+      <DependentUpon>TrapezoidForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Triangle.cs" />
     <Compile Include="triangleForm.cs">
       <SubType>Form</SubType>
@@ -120,6 +126,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SquareForm.resx">
       <DependentUpon>SquareForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrapezoidForm.resx">
+      <DependentUpon>TrapezoidForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="triangleForm.resx">
       <DependentUpon>triangleForm.cs</DependentUpon>

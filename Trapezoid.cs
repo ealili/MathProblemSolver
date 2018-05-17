@@ -8,7 +8,7 @@ namespace MathProblemSolver
 {
     class Trapezoid:TwoDimensionalShape
     {
-        Trapezoid(double Base, double side, double side1, double side2)
+        public Trapezoid(double Base, double side, double side1, double side2)
         {
             this.Base = Base;
             this.side1 = side1;

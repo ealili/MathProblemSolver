@@ -50,5 +50,12 @@ namespace MathProblemSolver
             this.Hide();
             circleForm.Show();
         }
+
+        private void trapezoidButton_Click(object sender, EventArgs e)
+        {
+            TrapezoidForm trapezoidForm = new TrapezoidForm();
+            this.Hide();
+            trapezoidForm.Show();
+        }
     }
 }
