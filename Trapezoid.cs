@@ -8,12 +8,13 @@ namespace MathProblemSolver
 {
     class Trapezoid:TwoDimensionalShape
     {
-        public Trapezoid(double Base, double side, double side1, double side2)
+        public Trapezoid(double Base, double side, double side1, double side2, double height)
         {
             this.Base = Base;
             this.side1 = side1;
             this.side2 = side2;
             this.side = side;
+            this.height = height;
         }
 
         public override double calculateArea()

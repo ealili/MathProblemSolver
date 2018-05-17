@@ -37,9 +37,10 @@ namespace MathProblemSolver
                 double side1 = double.Parse(getSide1.Text);
                 double side2 = double.Parse(getSide2.Text);
                 double side3 = double.Parse(getSide3.Text);
-                Trapezoid trapezoid = new Trapezoid(baseLength, side1, side2, side3);
-                showArea.Text = "The area is " + trapezoid.calculateArea().ToString();
-                showPerimeter.Text = "The perimeter is " + trapezoid.calculatePerimeter().ToString();
+                double height = double.Parse(getHeight.Text);
+                Trapezoid trapezoid = new Trapezoid(baseLength, side1, side2, side3, height);
+                showArea.Text = "The area is " + TwoDimensionalShape.setPrecision(trapezoid.calculateArea());
+                showPerimeter.Text = "The perimeter is " + TwoDimensionalShape.setPrecision(trapezoid.calculatePerimeter());
             }
             catch
             {
@@ -49,7 +50,8 @@ namespace MathProblemSolver
                 getBase.Text = "";
                 getSide1.Text = "";
                 getSide2.Text = "";
-                getSide3.Text = "";            
+                getSide3.Text = "";
+                getHeight.Text = "";
             }
         }
     }

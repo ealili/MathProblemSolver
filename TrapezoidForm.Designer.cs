@@ -42,6 +42,8 @@
             this.calculateButton = new System.Windows.Forms.Button();
             this.showArea = new System.Windows.Forms.Label();
             this.showPerimeter = new System.Windows.Forms.Label();
+            this.heightLabel = new System.Windows.Forms.Label();
+            this.getHeight = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // trapezoidBackButton
@@ -60,7 +62,7 @@
             // 
             this.titleLabel.AutoSize = true;
             this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleLabel.Location = new System.Drawing.Point(336, 80);
+            this.titleLabel.Location = new System.Drawing.Point(383, 59);
             this.titleLabel.Name = "titleLabel";
             this.titleLabel.Size = new System.Drawing.Size(104, 24);
             this.titleLabel.TabIndex = 1;
@@ -69,7 +71,7 @@
             // baseLabel
             // 
             this.baseLabel.AutoSize = true;
-            this.baseLabel.Location = new System.Drawing.Point(176, 168);
+            this.baseLabel.Location = new System.Drawing.Point(176, 145);
             this.baseLabel.Name = "baseLabel";
             this.baseLabel.Size = new System.Drawing.Size(76, 13);
             this.baseLabel.TabIndex = 2;
@@ -78,7 +80,7 @@
             // side1Label
             // 
             this.side1Label.AutoSize = true;
-            this.side1Label.Location = new System.Drawing.Point(171, 216);
+            this.side1Label.Location = new System.Drawing.Point(176, 184);
             this.side1Label.Name = "side1Label";
             this.side1Label.Size = new System.Drawing.Size(60, 13);
             this.side1Label.TabIndex = 3;
@@ -87,7 +89,7 @@
             // side2Label
             // 
             this.side2Label.AutoSize = true;
-            this.side2Label.Location = new System.Drawing.Point(171, 258);
+            this.side2Label.Location = new System.Drawing.Point(176, 219);
             this.side2Label.Name = "side2Label";
             this.side2Label.Size = new System.Drawing.Size(78, 13);
             this.side2Label.TabIndex = 4;
@@ -96,7 +98,7 @@
             // side3Label
             // 
             this.side3Label.AutoSize = true;
-            this.side3Label.Location = new System.Drawing.Point(171, 309);
+            this.side3Label.Location = new System.Drawing.Point(176, 248);
             this.side3Label.Name = "side3Label";
             this.side3Label.Size = new System.Drawing.Size(81, 13);
             this.side3Label.TabIndex = 5;
@@ -104,35 +106,35 @@
             // 
             // getBase
             // 
-            this.getBase.Location = new System.Drawing.Point(387, 161);
+            this.getBase.Location = new System.Drawing.Point(387, 145);
             this.getBase.Name = "getBase";
             this.getBase.Size = new System.Drawing.Size(100, 20);
             this.getBase.TabIndex = 6;
             // 
             // getSide1
             // 
-            this.getSide1.Location = new System.Drawing.Point(387, 216);
+            this.getSide1.Location = new System.Drawing.Point(387, 184);
             this.getSide1.Name = "getSide1";
             this.getSide1.Size = new System.Drawing.Size(100, 20);
             this.getSide1.TabIndex = 7;
             // 
             // getSide2
             // 
-            this.getSide2.Location = new System.Drawing.Point(387, 265);
+            this.getSide2.Location = new System.Drawing.Point(387, 219);
             this.getSide2.Name = "getSide2";
             this.getSide2.Size = new System.Drawing.Size(100, 20);
             this.getSide2.TabIndex = 8;
             // 
             // getSide3
             // 
-            this.getSide3.Location = new System.Drawing.Point(387, 309);
+            this.getSide3.Location = new System.Drawing.Point(387, 248);
             this.getSide3.Name = "getSide3";
             this.getSide3.Size = new System.Drawing.Size(100, 20);
             this.getSide3.TabIndex = 9;
             // 
             // calculateButton
             // 
-            this.calculateButton.Location = new System.Drawing.Point(597, 230);
+            this.calculateButton.Location = new System.Drawing.Point(590, 191);
             this.calculateButton.Name = "calculateButton";
             this.calculateButton.Size = new System.Drawing.Size(114, 41);
             this.calculateButton.TabIndex = 10;
@@ -156,11 +158,29 @@
             this.showPerimeter.Size = new System.Drawing.Size(0, 13);
             this.showPerimeter.TabIndex = 12;
             // 
+            // heightLabel
+            // 
+            this.heightLabel.AutoSize = true;
+            this.heightLabel.Location = new System.Drawing.Point(176, 282);
+            this.heightLabel.Name = "heightLabel";
+            this.heightLabel.Size = new System.Drawing.Size(85, 13);
+            this.heightLabel.TabIndex = 13;
+            this.heightLabel.Text = "Enter the height ";
+            // 
+            // getHeight
+            // 
+            this.getHeight.Location = new System.Drawing.Point(387, 279);
+            this.getHeight.Name = "getHeight";
+            this.getHeight.Size = new System.Drawing.Size(100, 20);
+            this.getHeight.TabIndex = 14;
+            // 
             // TrapezoidForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(813, 496);
+            this.Controls.Add(this.getHeight);
+            this.Controls.Add(this.heightLabel);
             this.Controls.Add(this.showPerimeter);
             this.Controls.Add(this.showArea);
             this.Controls.Add(this.calculateButton);
@@ -200,5 +220,7 @@
         private System.Windows.Forms.Button calculateButton;
         private System.Windows.Forms.Label showArea;
         private System.Windows.Forms.Label showPerimeter;
+        private System.Windows.Forms.Label heightLabel;
+        private System.Windows.Forms.TextBox getHeight;
     }
 }
