@@ -66,6 +66,12 @@
     </Compile>
     <Compile Include="Cone.cs" />
     <Compile Include="Cube.cs" />
+    <Compile Include="CubeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CubeForm.Designer.cs">
+      <DependentUpon>CubeForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cuboid.cs" />
     <Compile Include="Cylinder.cs" />
     <Compile Include="Form1.cs">
@@ -117,6 +123,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CircleForm.resx">
       <DependentUpon>CircleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CubeForm.resx">
+      <DependentUpon>CubeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

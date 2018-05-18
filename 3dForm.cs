@@ -23,5 +23,12 @@ namespace MathProblemSolver
             this.Hide();
             mainForm.Show();
         }
+
+        private void cubeButton_Click(object sender, EventArgs e)
+        {
+            CubeForm cubeForm = new CubeForm();
+            this.Hide();
+            cubeForm.Show();
+        }
     }
 }
