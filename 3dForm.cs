@@ -30,5 +30,12 @@ namespace MathProblemSolver
             this.Hide();
             cubeForm.Show();
         }
+
+        private void cuboidButton_Click(object sender, EventArgs e)
+        {
+            CuboidForm cuboidForm = new CuboidForm();
+            this.Hide();
+            cuboidForm.Show();
+        }
     }
 }

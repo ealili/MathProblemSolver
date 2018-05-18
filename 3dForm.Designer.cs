@@ -70,6 +70,7 @@
             this.cuboidButton.TabIndex = 2;
             this.cuboidButton.Text = "Cuboid";
             this.cuboidButton.UseVisualStyleBackColor = true;
+            this.cuboidButton.Click += new System.EventHandler(this.cuboidButton_Click);
             // 
             // sphereButton
             // 
