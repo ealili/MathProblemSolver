@@ -77,7 +77,7 @@
             // 
             this.widthLabel.AutoSize = true;
             this.widthLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.widthLabel.Location = new System.Drawing.Point(201, 305);
+            this.widthLabel.Location = new System.Drawing.Point(190, 303);
             this.widthLabel.Name = "widthLabel";
             this.widthLabel.Size = new System.Drawing.Size(131, 20);
             this.widthLabel.TabIndex = 3;
