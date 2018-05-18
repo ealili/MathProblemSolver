@@ -43,5 +43,12 @@ namespace MathProblemSolver
             this.Hide();
             twoD.Show();
         }
+
+        private void threeDimensionalButton_Click(object sender, EventArgs e)
+        {
+            _3dForm threeD = new _3dForm();
+            this.Hide();
+            threeD.Show();
+        }
     }
 }

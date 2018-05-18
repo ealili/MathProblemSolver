@@ -110,6 +110,7 @@
             this.threeDimensionalButton.Size = new System.Drawing.Size(146, 146);
             this.threeDimensionalButton.TabIndex = 3;
             this.threeDimensionalButton.UseVisualStyleBackColor = false;
+            this.threeDimensionalButton.Click += new System.EventHandler(this.threeDimensionalButton_Click);
             this.threeDimensionalButton.MouseLeave += new System.EventHandler(this.threeDimensionalButton_MouseLeave);
             this.threeDimensionalButton.MouseHover += new System.EventHandler(this.threeDimensionalButton_MouseHover);
             // 
