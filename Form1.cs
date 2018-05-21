@@ -19,22 +19,26 @@ namespace MathProblemSolver
 
         private void twoDimensionalButton_MouseHover(object sender, EventArgs e)
         {
-            twoDimensionalButton.Size = new Size(140, 160);
+            twoDimensionalButton.ForeColor = Color.White;
+            twoDimensionalButton.Font = new Font(twoDimensionalButton.Font.FontFamily, 64);
         }
 
         private void twoDimensionalButton_MouseLeave(object sender, EventArgs e)
         {
-            twoDimensionalButton.Size = new Size(140, 140);
+            twoDimensionalButton.ForeColor = Color.MediumSpringGreen;
+            twoDimensionalButton.Font = new Font(twoDimensionalButton.Font.FontFamily, 60);
         }
 
         private void threeDimensionalButton_MouseHover(object sender, EventArgs e)
         {
-            threeDimensionalButton.Size = new Size(140, 160);
+            threeDimensionalButton.ForeColor = Color.White;
+            threeDimensionalButton.Font = new Font(twoDimensionalButton.Font.FontFamily, 64);
         }
 
         private void threeDimensionalButton_MouseLeave(object sender, EventArgs e)
         {
-            threeDimensionalButton.Size = new Size(140, 140);
+            threeDimensionalButton.ForeColor = Color.MediumSpringGreen;
+            threeDimensionalButton.Font = new Font(twoDimensionalButton.Font.FontFamily, 60);
         }
 
         private void twoDimensionalButton_Click(object sender, EventArgs e)
@@ -49,6 +53,11 @@ namespace MathProblemSolver
             _3dForm threeD = new _3dForm();
             this.Hide();
             threeD.Show();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
