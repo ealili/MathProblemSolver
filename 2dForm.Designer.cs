@@ -37,27 +37,32 @@
             this.circleButton = new System.Windows.Forms.Button();
             this.trapezoidButton = new System.Windows.Forms.Button();
             this.parallelogramButton = new System.Windows.Forms.Button();
+            this.titleLabel = new System.Windows.Forms.Label();
             choosingLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // choosingLabel
             // 
             choosingLabel.AutoSize = true;
-            choosingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            choosingLabel.Location = new System.Drawing.Point(276, 84);
+            choosingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            choosingLabel.ForeColor = System.Drawing.Color.White;
+            choosingLabel.Location = new System.Drawing.Point(0, 150);
+            choosingLabel.MinimumSize = new System.Drawing.Size(810, 20);
             choosingLabel.Name = "choosingLabel";
-            choosingLabel.Size = new System.Drawing.Size(234, 20);
+            choosingLabel.Size = new System.Drawing.Size(810, 20);
             choosingLabel.TabIndex = 0;
             choosingLabel.Text = "Choose the 2D shape below";
+            choosingLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // twoDBackButton
             // 
             this.twoDBackButton.AutoSize = true;
             this.twoDBackButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.twoDBackButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.twoDBackButton.Location = new System.Drawing.Point(12, 18);
+            this.twoDBackButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.twoDBackButton.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            this.twoDBackButton.Location = new System.Drawing.Point(12, 120);
             this.twoDBackButton.Name = "twoDBackButton";
-            this.twoDBackButton.Size = new System.Drawing.Size(73, 24);
+            this.twoDBackButton.Size = new System.Drawing.Size(67, 24);
             this.twoDBackButton.TabIndex = 7;
             this.twoDBackButton.Text = "< Back";
             this.twoDBackButton.Click += new System.EventHandler(this.label2_Click);
@@ -65,7 +70,7 @@
             // triangleButton
             // 
             this.triangleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.triangleButton.Location = new System.Drawing.Point(350, 206);
+            this.triangleButton.Location = new System.Drawing.Point(360, 252);
             this.triangleButton.Name = "triangleButton";
             this.triangleButton.Size = new System.Drawing.Size(75, 23);
             this.triangleButton.TabIndex = 8;
@@ -75,7 +80,7 @@
             // 
             // squareButton
             // 
-            this.squareButton.Location = new System.Drawing.Point(116, 205);
+            this.squareButton.Location = new System.Drawing.Point(116, 253);
             this.squareButton.Name = "squareButton";
             this.squareButton.Size = new System.Drawing.Size(75, 23);
             this.squareButton.TabIndex = 9;
@@ -85,7 +90,7 @@
             // 
             // rectangleButton
             // 
-            this.rectangleButton.Location = new System.Drawing.Point(578, 205);
+            this.rectangleButton.Location = new System.Drawing.Point(578, 253);
             this.rectangleButton.Name = "rectangleButton";
             this.rectangleButton.Size = new System.Drawing.Size(75, 23);
             this.rectangleButton.TabIndex = 10;
@@ -105,7 +110,7 @@
             // 
             // trapezoidButton
             // 
-            this.trapezoidButton.Location = new System.Drawing.Point(350, 377);
+            this.trapezoidButton.Location = new System.Drawing.Point(360, 377);
             this.trapezoidButton.Name = "trapezoidButton";
             this.trapezoidButton.Size = new System.Drawing.Size(75, 23);
             this.trapezoidButton.TabIndex = 12;
@@ -122,11 +127,27 @@
             this.parallelogramButton.Text = "Parallelogram";
             this.parallelogramButton.UseVisualStyleBackColor = true;
             // 
+            // titleLabel
+            // 
+            this.titleLabel.AutoSize = true;
+            this.titleLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.titleLabel.Font = new System.Drawing.Font("Tempus Sans ITC", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleLabel.ForeColor = System.Drawing.Color.White;
+            this.titleLabel.Location = new System.Drawing.Point(0, 0);
+            this.titleLabel.MinimumSize = new System.Drawing.Size(810, 100);
+            this.titleLabel.Name = "titleLabel";
+            this.titleLabel.Size = new System.Drawing.Size(810, 100);
+            this.titleLabel.TabIndex = 15;
+            this.titleLabel.Text = "2D Shapes";
+            this.titleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // _2dForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(813, 496);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.ClientSize = new System.Drawing.Size(830, 535);
+            this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.parallelogramButton);
             this.Controls.Add(this.trapezoidButton);
             this.Controls.Add(this.circleButton);
@@ -135,10 +156,10 @@
             this.Controls.Add(this.triangleButton);
             this.Controls.Add(this.twoDBackButton);
             this.Controls.Add(choosingLabel);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(829, 535);
-            this.MinimumSize = new System.Drawing.Size(829, 535);
+            this.MaximumSize = new System.Drawing.Size(830, 535);
+            this.MinimumSize = new System.Drawing.Size(830, 535);
             this.Name = "_2dForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "_2dForm";
@@ -155,5 +176,6 @@
         private System.Windows.Forms.Button circleButton;
         private System.Windows.Forms.Button trapezoidButton;
         private System.Windows.Forms.Button parallelogramButton;
+        private System.Windows.Forms.Label titleLabel;
     }
 }

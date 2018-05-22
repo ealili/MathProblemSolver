@@ -57,5 +57,10 @@ namespace MathProblemSolver
             this.Hide();
             trapezoidForm.Show();
         }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
