@@ -15,7 +15,6 @@ namespace MathProblemSolver
         protected double Base;
         protected double height;
         protected double width;
-        protected double side;
         protected double radius;
         public const double pi = 3.1415265352429;
     }

@@ -30,6 +30,7 @@ namespace MathProblemSolver
 
             return ret;
         }
+
     }
 
     class ValidationFunctions
@@ -37,9 +38,10 @@ namespace MathProblemSolver
         //Function to validate the input type
         static public bool validateDoubleInput(string a)
         {
-            double outValue;
-            return double.TryParse(a, out outValue);
+                double outValue;
+                return double.TryParse(a, out outValue);
         }
     }
+    
 
 }
