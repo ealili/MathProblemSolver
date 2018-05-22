@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace MathProblemSolver
 {
-    class Pyramid:ThreeDimensionalShape
+    class PyramidRectangularBased:ThreeDimensionalShape
     {
-        public Pyramid(double Base, double height, double width)
+        public PyramidRectangularBased(double Base, double height, double width)
         {
             this.Base = Base;
             this.width = width;
@@ -17,7 +17,7 @@ namespace MathProblemSolver
 
         public override double calculateArea()
         {
-            return (Base * width) + (Base * Math.Sqrt(Math.Pow((width / 2), 2) + Math.Pow(height, 2))) + (width * Math.Sqrt(Math.Pow((Base / 2), 2) + Math.Pow(height, 2)));
+            return (Base * width) + (Base * Math.Sqrt(Math.Pow((width / 2), 2) + Math.Pow(height, 2))) + (width * Math.Sqrt(Math.Pow((Base / 2), 2) + Math.Pow(height, 2))); // A=lw+l*sqrt((w/2)^2+h^2) +w*sqrt((l/2)^2+h^2)
         }
 
         public override double calculateVolume()

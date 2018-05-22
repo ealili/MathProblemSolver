@@ -89,7 +89,8 @@
     <Compile Include="Parallelogram.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Pyramid.cs" />
+    <Compile Include="PyramidRectangularBased.cs" />
+    <Compile Include="PyramidTriangleBased.cs" />
     <Compile Include="Rectangle.cs" />
     <Compile Include="RectangleForm.cs">
       <SubType>Form</SubType>
