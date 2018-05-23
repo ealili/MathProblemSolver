@@ -15,7 +15,6 @@ namespace MathProblemSolver
         public CuboidForm()
         {
             InitializeComponent();
-
         }
 
         private void cuboidBackButton_Click(object sender, EventArgs e)

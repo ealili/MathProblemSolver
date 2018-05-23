@@ -8,7 +8,7 @@ namespace MathProblemSolver
 {
     class Parallelogram:TwoDimensionalShape
     {
-        Parallelogram(double Base, double side, double height)
+        public Parallelogram(double Base, double side, double height)
         {
             this.Base = Base;
             this.side = side;

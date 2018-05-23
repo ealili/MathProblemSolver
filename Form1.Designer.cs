@@ -117,7 +117,7 @@
             this.Controls.Add(this.threeDimensionalButton);
             this.Controls.Add(this.twoDimensionalButton);
             this.Controls.Add(this.shapeChoosingLabel);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximumSize = new System.Drawing.Size(830, 535);
