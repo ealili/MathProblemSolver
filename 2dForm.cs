@@ -62,5 +62,12 @@ namespace MathProblemSolver
         {
             this.Close();
         }
+
+        private void parallelogramButton_Click(object sender, EventArgs e)
+        {
+            ParallelogramForm parallelogramForm = new ParallelogramForm();
+            this.Close();
+            parallelogramForm.Show();
+        }
     }
 }
