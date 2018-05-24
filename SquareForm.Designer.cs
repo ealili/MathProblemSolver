@@ -70,7 +70,7 @@
             this.getBase.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.getBase.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.getBase.Location = new System.Drawing.Point(544, 295);
-            this.getBase.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.getBase.Margin = new System.Windows.Forms.Padding(4);
             this.getBase.Name = "getBase";
             this.getBase.Size = new System.Drawing.Size(132, 27);
             this.getBase.TabIndex = 2;
@@ -85,9 +85,9 @@
             this.calcButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.calcButton.ForeColor = System.Drawing.Color.White;
             this.calcButton.Location = new System.Drawing.Point(761, 295);
-            this.calcButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.calcButton.Margin = new System.Windows.Forms.Padding(4);
             this.calcButton.Name = "calcButton";
-            this.calcButton.Size = new System.Drawing.Size(132, 27);
+            this.calcButton.Size = new System.Drawing.Size(140, 30);
             this.calcButton.TabIndex = 3;
             this.calcButton.Text = "Calculate";
             this.calcButton.UseVisualStyleBackColor = false;
@@ -145,7 +145,7 @@
             this.Controls.Add(this.squareBackButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(1099, 648);
             this.MinimumSize = new System.Drawing.Size(1099, 648);
             this.Name = "SquareForm";

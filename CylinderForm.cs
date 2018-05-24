@@ -15,6 +15,7 @@ namespace MathProblemSolver
         public CylinderForm()
         {
             InitializeComponent();
+            this.AcceptButton = calculateButton;
         }
 
         private void cylinderBackButton_Click(object sender, EventArgs e)

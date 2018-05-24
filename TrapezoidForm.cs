@@ -15,6 +15,7 @@ namespace MathProblemSolver
         public TrapezoidForm()
         {
             InitializeComponent();
+            this.AcceptButton = calculateButton;
         }
 
         private void trapezoidBackButton_Click(object sender, EventArgs e)

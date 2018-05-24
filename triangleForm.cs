@@ -15,6 +15,7 @@ namespace MathProblemSolver
         public triangleForm()
         {
             InitializeComponent();
+            this.AcceptButton = calcButton;
         }
 
         private void button1_Click(object sender, EventArgs e)

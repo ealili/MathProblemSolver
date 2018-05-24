@@ -15,6 +15,7 @@ namespace MathProblemSolver
         public SphereForm()
         {
             InitializeComponent();
+            this.AcceptButton = calculateButton;
         }
 
         private void sphereBackButton_Click(object sender, EventArgs e)

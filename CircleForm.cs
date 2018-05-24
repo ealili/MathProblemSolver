@@ -15,6 +15,7 @@ namespace MathProblemSolver
         public CircleForm()
         {
             InitializeComponent();
+            this.AcceptButton = calculateButton;
         }
 
         private void circleBackLabel_Click(object sender, EventArgs e)

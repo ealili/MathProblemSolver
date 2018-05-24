@@ -15,6 +15,7 @@ namespace MathProblemSolver
         public ParallelogramForm()
         {
             InitializeComponent();
+            this.AcceptButton = calculateButton;
         }
 
         private void calculateButton_Click(object sender, EventArgs e)

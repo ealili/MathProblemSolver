@@ -15,6 +15,7 @@ namespace MathProblemSolver
         public RectangleForm()
         {
             InitializeComponent();
+            this.AcceptButton = calcButton;
         }
 
         //Hiding the current window and the showing the previous one

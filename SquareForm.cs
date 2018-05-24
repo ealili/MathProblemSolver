@@ -15,10 +15,11 @@ namespace MathProblemSolver
         public SquareForm()
         {
             InitializeComponent();
+            this.AcceptButton = calcButton;
         }
 
         private void calcButton_Click(object sender, EventArgs e)
-        {
+        { 
             try
             {
                 double baseLength = double.Parse(getBase.Text);

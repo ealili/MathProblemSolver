@@ -15,6 +15,7 @@ namespace MathProblemSolver
         public ConeForm()
         {
             InitializeComponent();
+            this.AcceptButton = calculateButton;
         }
 
         private void coneBackButton_Click(object sender, EventArgs e)
