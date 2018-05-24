@@ -8,6 +8,10 @@ namespace MathProblemSolver
 {
     class PyramidRectangularBased:ThreeDimensionalShape
     {
+        private double Base;
+        private double width;
+        private double height;
+
         public PyramidRectangularBased(double Base, double height, double width)
         {
             this.Base = Base;

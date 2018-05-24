@@ -8,6 +8,10 @@ namespace MathProblemSolver
 {
     class Cuboid:ThreeDimensionalShape
     {
+        private double Base;
+        private double width;
+        private double height;
+
         public Cuboid(double Base, double width, double height)
         {
             this.Base = Base;

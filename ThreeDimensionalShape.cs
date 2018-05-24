@@ -10,13 +10,6 @@ namespace MathProblemSolver
     {
         public abstract double calculateVolume();
         public abstract double calculateArea();
-        //public abstract void validateInput();
-
-        protected double Base;
-        protected double height;
-        protected double width;
-        protected double radius;
-        public const double pi = 3.1415265352429;
     }
 
     

@@ -8,8 +8,11 @@ namespace MathProblemSolver
 {
     class PyramidTriangleBased:ThreeDimensionalShape
     {
-        double BaseHeight;// the height of the base 
+        private double Base;
+        private double BaseHeight;// the height of the base 
         // the variable "height" is the height of the pyramid
+        private double width;
+        private double height;
 
         public PyramidTriangleBased(double Base, double width, double height, double BaseHeight)
         {

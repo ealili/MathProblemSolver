@@ -8,6 +8,9 @@ namespace MathProblemSolver
 {
     class Sphere:ThreeDimensionalShape
     {
+        private double radius;
+        private const double pi = 3.14;
+
         public Sphere(double radius)
         {
             this.radius = radius;

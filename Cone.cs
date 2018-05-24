@@ -8,6 +8,10 @@ namespace MathProblemSolver
 {
     class Cone:ThreeDimensionalShape
     {
+        private double radius;
+        private double height;
+        private const double pi = 3.14;
+
         public Cone(double radius, double height)
         {
             this.radius = radius;

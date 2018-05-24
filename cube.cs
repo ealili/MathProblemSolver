@@ -8,6 +8,8 @@ namespace MathProblemSolver
 {
     class Cube:ThreeDimensionalShape
     {
+        private double Base;
+
         public Cube(double Base)
         {
             this.Base = Base;
