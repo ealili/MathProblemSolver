@@ -49,5 +49,12 @@ namespace MathProblemSolver
             this.Hide();
             cylinderForm.Show();
         }
+
+        private void coneButton_Click(object sender, EventArgs e)
+        {
+            ConeForm coneForm = new ConeForm();
+            this.Hide();
+            coneForm.Show();
+        }
     }
 }

@@ -58,7 +58,7 @@
             // cubeButton
             // 
             this.cubeButton.Location = new System.Drawing.Point(199, 364);
-            this.cubeButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cubeButton.Margin = new System.Windows.Forms.Padding(4);
             this.cubeButton.Name = "cubeButton";
             this.cubeButton.Size = new System.Drawing.Size(100, 28);
             this.cubeButton.TabIndex = 1;
@@ -69,7 +69,7 @@
             // cuboidButton
             // 
             this.cuboidButton.Location = new System.Drawing.Point(477, 364);
-            this.cuboidButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cuboidButton.Margin = new System.Windows.Forms.Padding(4);
             this.cuboidButton.Name = "cuboidButton";
             this.cuboidButton.Size = new System.Drawing.Size(100, 28);
             this.cuboidButton.TabIndex = 2;
@@ -80,7 +80,7 @@
             // sphereButton
             // 
             this.sphereButton.Location = new System.Drawing.Point(477, 486);
-            this.sphereButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sphereButton.Margin = new System.Windows.Forms.Padding(4);
             this.sphereButton.Name = "sphereButton";
             this.sphereButton.Size = new System.Drawing.Size(100, 28);
             this.sphereButton.TabIndex = 3;
@@ -90,7 +90,7 @@
             // pyramidButton
             // 
             this.pyramidButton.Location = new System.Drawing.Point(780, 486);
-            this.pyramidButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pyramidButton.Margin = new System.Windows.Forms.Padding(4);
             this.pyramidButton.Name = "pyramidButton";
             this.pyramidButton.Size = new System.Drawing.Size(100, 28);
             this.pyramidButton.TabIndex = 4;
@@ -100,7 +100,7 @@
             // cylinderButton
             // 
             this.cylinderButton.Location = new System.Drawing.Point(780, 364);
-            this.cylinderButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cylinderButton.Margin = new System.Windows.Forms.Padding(4);
             this.cylinderButton.Name = "cylinderButton";
             this.cylinderButton.Size = new System.Drawing.Size(100, 28);
             this.cylinderButton.TabIndex = 5;
@@ -111,12 +111,13 @@
             // coneButton
             // 
             this.coneButton.Location = new System.Drawing.Point(199, 486);
-            this.coneButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.coneButton.Margin = new System.Windows.Forms.Padding(4);
             this.coneButton.Name = "coneButton";
             this.coneButton.Size = new System.Drawing.Size(100, 28);
             this.coneButton.TabIndex = 6;
             this.coneButton.Text = "Cone";
             this.coneButton.UseVisualStyleBackColor = true;
+            this.coneButton.Click += new System.EventHandler(this.coneButton_Click);
             // 
             // titleLabel
             // 
@@ -164,7 +165,7 @@
             this.Controls.Add(this.threeDBackButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(1098, 647);
             this.MinimumSize = new System.Drawing.Size(1098, 647);
             this.Name = "_3dForm";
