@@ -56,5 +56,12 @@ namespace MathProblemSolver
             this.Hide();
             coneForm.Show();
         }
+
+        private void sphereButton_Click(object sender, EventArgs e)
+        {
+            SphereForm sphereForm = new SphereForm();
+            this.Hide();
+            sphereForm.Show();
+        }
     }
 }

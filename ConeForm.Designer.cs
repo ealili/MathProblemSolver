@@ -127,6 +127,8 @@
             this.Controls.Add(this.radiusLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(1099, 647);
+            this.MinimumSize = new System.Drawing.Size(1099, 647);
             this.Name = "ConeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ConeForm";

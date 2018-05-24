@@ -117,6 +117,12 @@
       <DependentUpon>RectangleForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Sphere.cs" />
+    <Compile Include="SphereForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SphereForm.Designer.cs">
+      <DependentUpon>SphereForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Square.cs" />
     <Compile Include="SquareForm.cs">
       <SubType>Form</SubType>
@@ -178,6 +184,9 @@
     </Compile>
     <EmbeddedResource Include="RectangleForm.resx">
       <DependentUpon>RectangleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SphereForm.resx">
+      <DependentUpon>SphereForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SquareForm.resx">
       <DependentUpon>SquareForm.cs</DependentUpon>

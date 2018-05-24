@@ -86,6 +86,7 @@
             this.sphereButton.TabIndex = 3;
             this.sphereButton.Text = "Sphere";
             this.sphereButton.UseVisualStyleBackColor = true;
+            this.sphereButton.Click += new System.EventHandler(this.sphereButton_Click);
             // 
             // pyramidButton
             // 
