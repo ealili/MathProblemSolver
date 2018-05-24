@@ -22,5 +22,13 @@ namespace MathProblemSolver
         {
             return 6 * Base * Base;
         }
+
+        public bool isCube(double Base)
+        {
+            if (Base < 0)
+                return false;
+            else
+                return true;
+        }
     }
 }

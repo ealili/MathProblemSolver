@@ -20,7 +20,15 @@ namespace MathProblemSolver
 
         public override double calculatePerimeter()
         {
-            return 2 * radius * pi; ;
+            return 2 * radius * pi; 
+        }
+
+        public bool isCircle(double radius) //not allows user to enter negative values
+        {
+            if (radius < 0)
+                return false;
+            else
+                return true;
         }
     }
 }
