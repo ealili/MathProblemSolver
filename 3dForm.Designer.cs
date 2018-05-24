@@ -97,6 +97,7 @@
             this.pyramidButton.TabIndex = 4;
             this.pyramidButton.Text = "Pyramid";
             this.pyramidButton.UseVisualStyleBackColor = true;
+            this.pyramidButton.Click += new System.EventHandler(this.pyramidButton_Click);
             // 
             // cylinderButton
             // 

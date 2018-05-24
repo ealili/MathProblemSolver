@@ -63,5 +63,12 @@ namespace MathProblemSolver
             this.Hide();
             sphereForm.Show();
         }
+
+        private void pyramidButton_Click(object sender, EventArgs e)
+        {
+            PyramidForm pyramidForm = new PyramidForm();
+            this.Hide();
+            pyramidForm.Show();
+        }
     }
 }
