@@ -19,4 +19,5 @@ namespace MathProblemSolver
         public const double pi = 3.1415265352429;
     }
 
+    
 }

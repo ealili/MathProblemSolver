@@ -42,5 +42,12 @@ namespace MathProblemSolver
         {
             this.Close();
         }
+
+        private void cylinderButton_Click(object sender, EventArgs e)
+        {
+            CylinderForm cylinderForm = new CylinderForm();
+            this.Hide();
+            cylinderForm.Show();
+        }
     }
 }
