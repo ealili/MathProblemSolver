@@ -24,5 +24,15 @@ namespace MathProblemSolver
         {
             return Base * width * height;
         }
+
+        public bool isCuboid(double Base, double width, double height)
+        {
+            if (Base < 0 && width < 0 && height < 0)
+                return false;
+            else if (Base == width && Base == height && width == height) //if this is true, then entered values forms cube not cuboid
+                return false;
+            else
+                return true;
+        }
     }
 }
