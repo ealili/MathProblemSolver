@@ -34,6 +34,7 @@ namespace MathProblemSolver
                 return double.TryParse(a, out outValue);
         }
     }
+
     
 
 }
