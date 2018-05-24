@@ -42,10 +42,12 @@
             // 
             this.circleBackLabel.AutoSize = true;
             this.circleBackLabel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.circleBackLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.circleBackLabel.Location = new System.Drawing.Point(74, 103);
+            this.circleBackLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.circleBackLabel.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            this.circleBackLabel.Location = new System.Drawing.Point(16, 148);
+            this.circleBackLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.circleBackLabel.Name = "circleBackLabel";
-            this.circleBackLabel.Size = new System.Drawing.Size(73, 24);
+            this.circleBackLabel.Size = new System.Drawing.Size(86, 29);
             this.circleBackLabel.TabIndex = 0;
             this.circleBackLabel.Text = "< Back";
             this.circleBackLabel.Click += new System.EventHandler(this.circleBackLabel_Click);
@@ -53,35 +55,55 @@
             // radiusLabel
             // 
             this.radiusLabel.AutoSize = true;
-            this.radiusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radiusLabel.Location = new System.Drawing.Point(174, 240);
+            this.radiusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radiusLabel.ForeColor = System.Drawing.Color.White;
+            this.radiusLabel.Location = new System.Drawing.Point(232, 295);
+            this.radiusLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.radiusLabel.Name = "radiusLabel";
-            this.radiusLabel.Size = new System.Drawing.Size(138, 20);
+            this.radiusLabel.Size = new System.Drawing.Size(148, 25);
             this.radiusLabel.TabIndex = 1;
             this.radiusLabel.Text = "Enter the radius";
             // 
             // titleLabel
             // 
             this.titleLabel.AutoSize = true;
-            this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleLabel.Location = new System.Drawing.Point(345, 57);
+            this.titleLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.titleLabel.Font = new System.Drawing.Font("Tempus Sans ITC", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleLabel.ForeColor = System.Drawing.Color.White;
+            this.titleLabel.Location = new System.Drawing.Point(0, 0);
+            this.titleLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.titleLabel.MaximumSize = new System.Drawing.Size(1080, 123);
+            this.titleLabel.MinimumSize = new System.Drawing.Size(1080, 123);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(64, 24);
+            this.titleLabel.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.titleLabel.Size = new System.Drawing.Size(1080, 123);
             this.titleLabel.TabIndex = 2;
             this.titleLabel.Text = "Circle";
+            this.titleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // getRadius
             // 
-            this.getRadius.Location = new System.Drawing.Point(380, 240);
+            this.getRadius.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.getRadius.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.getRadius.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            this.getRadius.Location = new System.Drawing.Point(472, 293);
+            this.getRadius.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.getRadius.MinimumSize = new System.Drawing.Size(132, 27);
             this.getRadius.Name = "getRadius";
-            this.getRadius.Size = new System.Drawing.Size(100, 20);
+            this.getRadius.Size = new System.Drawing.Size(132, 27);
             this.getRadius.TabIndex = 3;
+            this.getRadius.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // calculateButton
             // 
-            this.calculateButton.Location = new System.Drawing.Point(571, 230);
+            this.calculateButton.FlatAppearance.BorderColor = System.Drawing.Color.MediumSpringGreen;
+            this.calculateButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.calculateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calculateButton.Location = new System.Drawing.Point(727, 290);
+            this.calculateButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.calculateButton.MinimumSize = new System.Drawing.Size(140, 30);
             this.calculateButton.Name = "calculateButton";
-            this.calculateButton.Size = new System.Drawing.Size(102, 39);
+            this.calculateButton.Size = new System.Drawing.Size(140, 30);
             this.calculateButton.TabIndex = 4;
             this.calculateButton.Text = "Calculate";
             this.calculateButton.UseVisualStyleBackColor = true;
@@ -90,26 +112,31 @@
             // showArea
             // 
             this.showArea.AutoSize = true;
-            this.showArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showArea.Location = new System.Drawing.Point(185, 316);
+            this.showArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showArea.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            this.showArea.Location = new System.Drawing.Point(232, 389);
+            this.showArea.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.showArea.Name = "showArea";
-            this.showArea.Size = new System.Drawing.Size(0, 20);
+            this.showArea.Size = new System.Drawing.Size(0, 29);
             this.showArea.TabIndex = 5;
             // 
             // showPerimeter
             // 
             this.showPerimeter.AutoSize = true;
-            this.showPerimeter.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showPerimeter.Location = new System.Drawing.Point(185, 364);
+            this.showPerimeter.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showPerimeter.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            this.showPerimeter.Location = new System.Drawing.Point(232, 448);
+            this.showPerimeter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.showPerimeter.Name = "showPerimeter";
-            this.showPerimeter.Size = new System.Drawing.Size(0, 20);
+            this.showPerimeter.Size = new System.Drawing.Size(0, 29);
             this.showPerimeter.TabIndex = 6;
             // 
             // CircleForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(813, 496);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.ClientSize = new System.Drawing.Size(1081, 601);
             this.Controls.Add(this.showPerimeter);
             this.Controls.Add(this.showArea);
             this.Controls.Add(this.calculateButton);
@@ -117,9 +144,11 @@
             this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.radiusLabel);
             this.Controls.Add(this.circleBackLabel);
+            this.ForeColor = System.Drawing.Color.White;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(829, 535);
-            this.MinimumSize = new System.Drawing.Size(829, 535);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(1099, 648);
+            this.MinimumSize = new System.Drawing.Size(1099, 648);
             this.Name = "CircleForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CircleForm";
