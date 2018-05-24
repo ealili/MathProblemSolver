@@ -8,6 +8,7 @@ namespace MathProblemSolver
 {
     class Square:TwoDimensionalShape
     {
+        private double Base;
         public Square(double Base)
         {
             this.Base = Base;

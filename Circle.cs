@@ -8,6 +8,8 @@ namespace MathProblemSolver
 {
     class Circle : TwoDimensionalShape
     {
+        private double radius;
+        private const double pi = 3.14;
         public Circle(double radius)
         {
             this.radius = radius;

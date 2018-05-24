@@ -8,9 +8,9 @@ namespace MathProblemSolver
 {
     class Triangle : TwoDimensionalShape
     {
-       // protected double Base;
-       // protected double side1;
-       // protected double side2;
+       private double Base;
+       private double side;
+       private double side1;
 
 
         public Triangle(double Base, double side, double side1)

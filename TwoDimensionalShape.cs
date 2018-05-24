@@ -10,15 +10,7 @@ namespace MathProblemSolver
     {
         public abstract double calculatePerimeter();
         public abstract double calculateArea();
-
-        protected double Base;
-        protected double height;
-        protected double side;
-        protected double side1;
-        protected double side2;
-        protected double radius;
-        public const double pi = 3.1415265352429;
-
+   
         internal static string setPrecision(double value)
         {
             string ret = value.ToString();

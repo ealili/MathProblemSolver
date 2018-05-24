@@ -10,6 +10,8 @@ namespace MathProblemSolver
 {
     class Rectangle: TwoDimensionalShape
     {
+        private double Base;
+        private double height;
         public Rectangle(double Base, double height)
         {
             this.Base = Base;

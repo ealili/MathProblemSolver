@@ -8,6 +8,12 @@ namespace MathProblemSolver
 {
     class Trapezoid:TwoDimensionalShape
     {
+        private double Base;
+        private double side;
+        private double side1;
+        private double side2;
+        private double height;
+
         public Trapezoid(double Base, double side, double side1, double side2, double height)
         {
             this.Base = Base;
