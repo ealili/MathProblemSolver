@@ -20,22 +20,23 @@ namespace MathProblemSolver
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double baseLength, side1, side2;
-            if (ValidationFunctions.validateDoubleInput(getBase.Text)
-                && ValidationFunctions.validateDoubleInput(getSide1.Text)
-                && ValidationFunctions.validateDoubleInput(getSide2.Text))
+            try
             {
-                side1 = double.Parse(getSide1.Text);
-                side2 = double.Parse(getSide2.Text);
-                baseLength = double.Parse(getBase.Text);
-                //Creating a Triangle object
+                double baseLength = double.Parse(getBase.Text);
+                double side1 = double.Parse(getSide1.Text);
+                double side2 = double.Parse(getSide2.Text);
                 Triangle triangle = new Triangle(baseLength, side1, side2);
-                showArea.Text = "The area is " + TwoDimensionalShape.setPrecision(triangle.calculateArea()); 
-                showPerimeter.Text = "The perimeter is " + triangle.calculatePerimeter().ToString();
+                showArea.Text = "The area is " + TwoDimensionalShape.setPrecision(triangle.calculateArea());
+                showPerimeter.Text = "The perimeter is " + TwoDimensionalShape.setPrecision(triangle.calculatePerimeter());   
             }
-            else
+            catch
             {
-                MessageBox.Show("Please enter valid values!", "Warning");
+                MessageBox.Show("Invalid Input", "Warning");
+                showArea.Text = "";
+                showPerimeter.Text = "";
+                getBase.Text = "";
+                getSide1.Text = "";
+                getSide2.Text = "";
             }
         }
 
