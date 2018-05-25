@@ -32,5 +32,12 @@ namespace MathProblemSolver
         {
             return Base + side1 + side2 + side;
         }
+        public bool isTrapezoid()
+        {
+            if (Base <= 0 && side <= 0 && side1 <= 0 && side2 <= 0 %% height <= 0)
+                return false;
+            else
+                return true;
+        }
     }
 }
