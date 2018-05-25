@@ -28,9 +28,9 @@ namespace MathProblemSolver
             return 2 * (Base + height);
         }
 
-        public bool isRectangle (double Base, double height) // function that controls if given values forms rectangle
+        public bool isRectangle () // function that controls if given values forms rectangle
         {
-            if (Base < 0 && height < 0)
+            if (Base <= 0 && height <= 0)
                 return false;
             else if (Base == height)
                 return false;

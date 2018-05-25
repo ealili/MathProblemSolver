@@ -26,9 +26,9 @@ namespace MathProblemSolver
             return (4 / 3) * pi * radius * radius * radius;
         }
 
-        public bool isSphere(double radius)
+        public bool isSphere()
         {
-            if (radius < 0)
+            if (radius <= 0)
                 return false;
             else
                 return true;

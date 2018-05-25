@@ -28,9 +28,9 @@ namespace MathProblemSolver
             return Math.Pow(radius, 2) * pi * height;
         }
 
-        public bool isCylinder(double radius, double height)
+        public bool isCylinder()
         {
-            if (radius < 0 && height < 0)
+            if (radius <= 0 && height <= 0)
                 return false;
             else
                 return true;

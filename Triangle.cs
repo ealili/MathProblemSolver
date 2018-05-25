@@ -33,9 +33,9 @@ namespace MathProblemSolver
             return Base + side + side1;
         }
 
-        public bool isTriangle(double Base, double side, double side1)
+        public bool isTriangle()
         {
-            if (Base < 0 && side < 0 && side1 < 0) // if the dimensions can't form a triangle return false
+            if (Base <= 0 && side <= 0 && side1 <= 0) // if the dimensions can't form a triangle return false
                 return false;
             else if (Base + side > side1 && side1 + side > Base && Base + side1 > side) // if the dimensions form a triangle return true
                 return true;

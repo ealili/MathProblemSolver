@@ -28,9 +28,9 @@ namespace MathProblemSolver
             return Math.Pow(radius, 2) * pi * (height / 3);
         }
 
-        public bool isCone(double radius, double height) //not allows user to enter negative values. 
+        public bool isCone() //not allows user to enter negative values. 
         {
-            if (radius < 0 && height < 0)
+            if (radius <= 0 && height <= 0)
                 return false;
             else
                 return true;

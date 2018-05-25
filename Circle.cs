@@ -25,9 +25,9 @@ namespace MathProblemSolver
             return 2 * radius * pi; 
         }
 
-        public bool isCircle(double radius) //not allows user to enter negative values
+        public bool isCircle() //not allows user to enter negative values
         {
-            if (radius < 0)
+            if (radius <= 0)
                 return false;
             else
                 return true;

@@ -24,9 +24,9 @@ namespace MathProblemSolver
             return 4 * Base;
         }
 
-        public bool isSquare(double Base)
+        public bool isSquare()
         {
-            if (Base < 0)
+            if (Base <= 0)
                 return false;
             else
                 return true;

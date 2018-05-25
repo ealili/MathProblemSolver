@@ -28,10 +28,10 @@ namespace MathProblemSolver
             return 2*(Base+side);
         }
 
-        public bool isParallelogram(double Base, double side, double height)
+        public bool isParallelogram()
         {
             //if base and side are equal, there is formed romb, but we do not have that form and do not do function to exclude that situation
-            if (Base < 0 && side < 0 && height < 0)
+            if (Base <= 0 && side <= 0 && height <= 0)
                 return false;
             else
                 return true;
