@@ -47,10 +47,9 @@
             this.baseLabel.AutoSize = true;
             this.baseLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.baseLabel.ForeColor = System.Drawing.Color.White;
-            this.baseLabel.Location = new System.Drawing.Point(269, 245);
-            this.baseLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.baseLabel.Location = new System.Drawing.Point(202, 199);
             this.baseLabel.Name = "baseLabel";
-            this.baseLabel.Size = new System.Drawing.Size(138, 25);
+            this.baseLabel.Size = new System.Drawing.Size(114, 20);
             this.baseLabel.TabIndex = 0;
             this.baseLabel.Text = "Enter the base";
             // 
@@ -59,11 +58,10 @@
             this.getBase.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.getBase.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.getBase.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.getBase.Location = new System.Drawing.Point(553, 245);
-            this.getBase.Margin = new System.Windows.Forms.Padding(4);
-            this.getBase.MinimumSize = new System.Drawing.Size(132, 27);
+            this.getBase.Location = new System.Drawing.Point(415, 199);
+            this.getBase.MinimumSize = new System.Drawing.Size(100, 27);
             this.getBase.Name = "getBase";
-            this.getBase.Size = new System.Drawing.Size(132, 27);
+            this.getBase.Size = new System.Drawing.Size(100, 23);
             this.getBase.TabIndex = 1;
             this.getBase.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -72,10 +70,9 @@
             this.side1Label.AutoSize = true;
             this.side1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.side1Label.ForeColor = System.Drawing.Color.White;
-            this.side1Label.Location = new System.Drawing.Point(269, 301);
-            this.side1Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.side1Label.Location = new System.Drawing.Point(202, 245);
             this.side1Label.Name = "side1Label";
-            this.side1Label.Size = new System.Drawing.Size(137, 25);
+            this.side1Label.Size = new System.Drawing.Size(112, 20);
             this.side1Label.TabIndex = 2;
             this.side1Label.Text = "Enter one side";
             // 
@@ -84,11 +81,10 @@
             this.getSide1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.getSide1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.getSide1.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.getSide1.Location = new System.Drawing.Point(553, 305);
-            this.getSide1.Margin = new System.Windows.Forms.Padding(4);
-            this.getSide1.MinimumSize = new System.Drawing.Size(132, 27);
+            this.getSide1.Location = new System.Drawing.Point(415, 248);
+            this.getSide1.MinimumSize = new System.Drawing.Size(100, 27);
             this.getSide1.Name = "getSide1";
-            this.getSide1.Size = new System.Drawing.Size(132, 27);
+            this.getSide1.Size = new System.Drawing.Size(100, 23);
             this.getSide1.TabIndex = 3;
             this.getSide1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -99,10 +95,9 @@
             this.titleLabel.Font = new System.Drawing.Font("Tempus Sans ITC", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titleLabel.ForeColor = System.Drawing.Color.White;
             this.titleLabel.Location = new System.Drawing.Point(0, 0);
-            this.titleLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.titleLabel.MinimumSize = new System.Drawing.Size(1080, 123);
+            this.titleLabel.MinimumSize = new System.Drawing.Size(810, 100);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(1080, 123);
+            this.titleLabel.Size = new System.Drawing.Size(810, 100);
             this.titleLabel.TabIndex = 4;
             this.titleLabel.Text = "Triangle";
             this.titleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -112,23 +107,22 @@
             this.showArea.AutoSize = true;
             this.showArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.showArea.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.showArea.Location = new System.Drawing.Point(269, 441);
-            this.showArea.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.showArea.Location = new System.Drawing.Point(202, 358);
             this.showArea.Name = "showArea";
-            this.showArea.Size = new System.Drawing.Size(0, 29);
+            this.showArea.Size = new System.Drawing.Size(0, 24);
             this.showArea.TabIndex = 5;
             // 
             // calcButton
             // 
             this.calcButton.FlatAppearance.BorderColor = System.Drawing.Color.MediumSpringGreen;
             this.calcButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.calcButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.calcButton.ForeColor = System.Drawing.Color.White;
-            this.calcButton.Location = new System.Drawing.Point(798, 302);
-            this.calcButton.Margin = new System.Windows.Forms.Padding(4);
-            this.calcButton.MaximumSize = new System.Drawing.Size(140, 30);
-            this.calcButton.MinimumSize = new System.Drawing.Size(140, 30);
+            this.calcButton.Location = new System.Drawing.Point(582, 239);
+            this.calcButton.MaximumSize = new System.Drawing.Size(120, 40);
+            this.calcButton.MinimumSize = new System.Drawing.Size(120, 40);
             this.calcButton.Name = "calcButton";
-            this.calcButton.Size = new System.Drawing.Size(140, 30);
+            this.calcButton.Size = new System.Drawing.Size(120, 40);
             this.calcButton.TabIndex = 6;
             this.calcButton.Text = "Calculate";
             this.calcButton.UseVisualStyleBackColor = true;
@@ -139,10 +133,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(269, 365);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(202, 297);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(180, 25);
+            this.label2.Size = new System.Drawing.Size(149, 20);
             this.label2.TabIndex = 7;
             this.label2.Text = "Enter the other side";
             // 
@@ -151,12 +144,11 @@
             this.getSide2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.getSide2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.getSide2.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.getSide2.Location = new System.Drawing.Point(553, 369);
-            this.getSide2.Margin = new System.Windows.Forms.Padding(4);
-            this.getSide2.MaximumSize = new System.Drawing.Size(132, 27);
-            this.getSide2.MinimumSize = new System.Drawing.Size(132, 27);
+            this.getSide2.Location = new System.Drawing.Point(415, 300);
+            this.getSide2.MaximumSize = new System.Drawing.Size(100, 27);
+            this.getSide2.MinimumSize = new System.Drawing.Size(100, 27);
             this.getSide2.Name = "getSide2";
-            this.getSide2.Size = new System.Drawing.Size(132, 27);
+            this.getSide2.Size = new System.Drawing.Size(100, 23);
             this.getSide2.TabIndex = 8;
             this.getSide2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -166,10 +158,9 @@
             this.triangleBackButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.triangleBackButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.triangleBackButton.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.triangleBackButton.Location = new System.Drawing.Point(16, 148);
-            this.triangleBackButton.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.triangleBackButton.Location = new System.Drawing.Point(12, 120);
             this.triangleBackButton.Name = "triangleBackButton";
-            this.triangleBackButton.Size = new System.Drawing.Size(86, 29);
+            this.triangleBackButton.Size = new System.Drawing.Size(67, 24);
             this.triangleBackButton.TabIndex = 9;
             this.triangleBackButton.Text = "< Back";
             this.triangleBackButton.Click += new System.EventHandler(this.triangleBackButton_Click);
@@ -179,18 +170,17 @@
             this.showPerimeter.AutoSize = true;
             this.showPerimeter.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.showPerimeter.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.showPerimeter.Location = new System.Drawing.Point(269, 522);
-            this.showPerimeter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.showPerimeter.Location = new System.Drawing.Point(202, 424);
             this.showPerimeter.Name = "showPerimeter";
-            this.showPerimeter.Size = new System.Drawing.Size(0, 29);
+            this.showPerimeter.Size = new System.Drawing.Size(0, 24);
             this.showPerimeter.TabIndex = 10;
             // 
             // triangleForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.ClientSize = new System.Drawing.Size(1077, 597);
+            this.ClientSize = new System.Drawing.Size(809, 492);
             this.Controls.Add(this.showPerimeter);
             this.Controls.Add(this.triangleBackButton);
             this.Controls.Add(this.getSide2);
@@ -204,9 +194,8 @@
             this.Controls.Add(this.baseLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
-            this.MaximumSize = new System.Drawing.Size(1099, 648);
-            this.MinimumSize = new System.Drawing.Size(1099, 648);
+            this.MaximumSize = new System.Drawing.Size(829, 535);
+            this.MinimumSize = new System.Drawing.Size(829, 535);
             this.Name = "triangleForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "triangleForm";

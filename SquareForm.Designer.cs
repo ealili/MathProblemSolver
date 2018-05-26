@@ -44,10 +44,9 @@
             this.squareBackButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.squareBackButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.squareBackButton.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.squareBackButton.Location = new System.Drawing.Point(16, 148);
-            this.squareBackButton.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.squareBackButton.Location = new System.Drawing.Point(12, 120);
             this.squareBackButton.Name = "squareBackButton";
-            this.squareBackButton.Size = new System.Drawing.Size(86, 29);
+            this.squareBackButton.Size = new System.Drawing.Size(67, 24);
             this.squareBackButton.TabIndex = 0;
             this.squareBackButton.Text = "< Back";
             this.squareBackButton.Click += new System.EventHandler(this.squareBackButton_Click);
@@ -57,10 +56,9 @@
             this.squareSideLabel.AutoSize = true;
             this.squareSideLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.squareSideLabel.ForeColor = System.Drawing.Color.White;
-            this.squareSideLabel.Location = new System.Drawing.Point(213, 297);
-            this.squareSideLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.squareSideLabel.Location = new System.Drawing.Point(160, 241);
             this.squareSideLabel.Name = "squareSideLabel";
-            this.squareSideLabel.Size = new System.Drawing.Size(249, 25);
+            this.squareSideLabel.Size = new System.Drawing.Size(206, 20);
             this.squareSideLabel.TabIndex = 1;
             this.squareSideLabel.Text = "Enter the side of the square";
             // 
@@ -69,10 +67,9 @@
             this.getBase.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.getBase.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.getBase.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.getBase.Location = new System.Drawing.Point(544, 295);
-            this.getBase.Margin = new System.Windows.Forms.Padding(4);
+            this.getBase.Location = new System.Drawing.Point(408, 240);
             this.getBase.Name = "getBase";
-            this.getBase.Size = new System.Drawing.Size(132, 27);
+            this.getBase.Size = new System.Drawing.Size(100, 23);
             this.getBase.TabIndex = 2;
             this.getBase.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -82,12 +79,11 @@
             this.calcButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.calcButton.FlatAppearance.BorderColor = System.Drawing.Color.MediumSpringGreen;
             this.calcButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.calcButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calcButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.calcButton.ForeColor = System.Drawing.Color.White;
-            this.calcButton.Location = new System.Drawing.Point(761, 295);
-            this.calcButton.Margin = new System.Windows.Forms.Padding(4);
+            this.calcButton.Location = new System.Drawing.Point(575, 231);
             this.calcButton.Name = "calcButton";
-            this.calcButton.Size = new System.Drawing.Size(140, 30);
+            this.calcButton.Size = new System.Drawing.Size(120, 40);
             this.calcButton.TabIndex = 3;
             this.calcButton.Text = "Calculate";
             this.calcButton.UseVisualStyleBackColor = false;
@@ -98,10 +94,9 @@
             this.showArea.AutoSize = true;
             this.showArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.showArea.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.showArea.Location = new System.Drawing.Point(215, 394);
-            this.showArea.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.showArea.Location = new System.Drawing.Point(161, 320);
             this.showArea.Name = "showArea";
-            this.showArea.Size = new System.Drawing.Size(0, 29);
+            this.showArea.Size = new System.Drawing.Size(0, 24);
             this.showArea.TabIndex = 4;
             // 
             // showPerimeter
@@ -109,10 +104,9 @@
             this.showPerimeter.AutoSize = true;
             this.showPerimeter.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.showPerimeter.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.showPerimeter.Location = new System.Drawing.Point(215, 457);
-            this.showPerimeter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.showPerimeter.Location = new System.Drawing.Point(161, 371);
             this.showPerimeter.Name = "showPerimeter";
-            this.showPerimeter.Size = new System.Drawing.Size(0, 29);
+            this.showPerimeter.Size = new System.Drawing.Size(0, 24);
             this.showPerimeter.TabIndex = 5;
             // 
             // titleLabel
@@ -122,20 +116,21 @@
             this.titleLabel.Font = new System.Drawing.Font("Tempus Sans ITC", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titleLabel.ForeColor = System.Drawing.Color.White;
             this.titleLabel.Location = new System.Drawing.Point(0, 0);
-            this.titleLabel.MaximumSize = new System.Drawing.Size(1080, 123);
-            this.titleLabel.MinimumSize = new System.Drawing.Size(1080, 123);
+            this.titleLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.titleLabel.MaximumSize = new System.Drawing.Size(810, 100);
+            this.titleLabel.MinimumSize = new System.Drawing.Size(810, 100);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(1080, 123);
+            this.titleLabel.Size = new System.Drawing.Size(810, 100);
             this.titleLabel.TabIndex = 6;
             this.titleLabel.Text = "Square";
             this.titleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // SquareForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.ClientSize = new System.Drawing.Size(1077, 597);
+            this.ClientSize = new System.Drawing.Size(809, 492);
             this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.showPerimeter);
             this.Controls.Add(this.showArea);
@@ -145,9 +140,8 @@
             this.Controls.Add(this.squareBackButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
-            this.MaximumSize = new System.Drawing.Size(1099, 648);
-            this.MinimumSize = new System.Drawing.Size(1099, 648);
+            this.MaximumSize = new System.Drawing.Size(829, 535);
+            this.MinimumSize = new System.Drawing.Size(829, 535);
             this.Name = "SquareForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SquareForm";
