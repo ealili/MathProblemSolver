@@ -137,6 +137,7 @@
             this.Controls.Add(this.getBase);
             this.Controls.Add(this.baseLabel);
             this.Controls.Add(this.cubeBackButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(829, 535);
             this.MinimumSize = new System.Drawing.Size(829, 535);
