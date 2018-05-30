@@ -129,7 +129,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.ClientSize = new System.Drawing.Size(813, 496);
+            this.ClientSize = new System.Drawing.Size(809, 492);
             this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.showArea);
             this.Controls.Add(this.showVolume);
@@ -143,7 +143,7 @@
             this.MinimumSize = new System.Drawing.Size(829, 535);
             this.Name = "CubeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CubeForm";
+            this.Text = "Cube";
             this.ResumeLayout(false);
             this.PerformLayout();
 

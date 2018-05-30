@@ -99,7 +99,7 @@
             this.getBase.MaximumSize = new System.Drawing.Size(100, 23);
             this.getBase.MinimumSize = new System.Drawing.Size(100, 23);
             this.getBase.Name = "getBase";
-            this.getBase.Size = new System.Drawing.Size(100, 23);
+            this.getBase.Size = new System.Drawing.Size(100, 24);
             this.getBase.TabIndex = 4;
             this.getBase.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -170,7 +170,7 @@
             this.MinimumSize = new System.Drawing.Size(829, 535);
             this.Name = "RectangleForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "RectangleForm";
+            this.Text = "Rectangle";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -85,7 +85,7 @@
             this.getBase.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.getBase.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.getBase.Location = new System.Drawing.Point(362, 200);
-            this.getBase.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.getBase.Margin = new System.Windows.Forms.Padding(2);
             this.getBase.Name = "getBase";
             this.getBase.Size = new System.Drawing.Size(100, 24);
             this.getBase.TabIndex = 3;
@@ -96,7 +96,7 @@
             this.getSide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.getSide.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.getSide.Location = new System.Drawing.Point(362, 240);
-            this.getSide.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.getSide.Margin = new System.Windows.Forms.Padding(2);
             this.getSide.Name = "getSide";
             this.getSide.Size = new System.Drawing.Size(100, 24);
             this.getSide.TabIndex = 4;
@@ -110,7 +110,7 @@
             this.calculateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.calculateButton.ForeColor = System.Drawing.Color.White;
             this.calculateButton.Location = new System.Drawing.Point(552, 232);
-            this.calculateButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.calculateButton.Margin = new System.Windows.Forms.Padding(2);
             this.calculateButton.Name = "calculateButton";
             this.calculateButton.Size = new System.Drawing.Size(120, 40);
             this.calculateButton.TabIndex = 5;
@@ -157,7 +157,7 @@
             this.getHeight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.getHeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.getHeight.Location = new System.Drawing.Point(362, 283);
-            this.getHeight.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.getHeight.Margin = new System.Windows.Forms.Padding(2);
             this.getHeight.Name = "getHeight";
             this.getHeight.Size = new System.Drawing.Size(100, 24);
             this.getHeight.TabIndex = 9;
@@ -197,12 +197,12 @@
             this.Controls.Add(this.parallelogramBackButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximumSize = new System.Drawing.Size(829, 534);
             this.MinimumSize = new System.Drawing.Size(829, 534);
             this.Name = "ParallelogramForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ParallelogramForm";
+            this.Text = "Parallelogram";
             this.ResumeLayout(false);
             this.PerformLayout();
 

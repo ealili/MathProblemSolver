@@ -44,9 +44,10 @@
             this.cylinderBackButton.AutoSize = true;
             this.cylinderBackButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cylinderBackButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cylinderBackButton.Location = new System.Drawing.Point(75, 133);
+            this.cylinderBackButton.Location = new System.Drawing.Point(56, 108);
+            this.cylinderBackButton.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.cylinderBackButton.Name = "cylinderBackButton";
-            this.cylinderBackButton.Size = new System.Drawing.Size(86, 29);
+            this.cylinderBackButton.Size = new System.Drawing.Size(67, 24);
             this.cylinderBackButton.TabIndex = 0;
             this.cylinderBackButton.Text = "< Back";
             this.cylinderBackButton.Click += new System.EventHandler(this.cylinderBackButton_Click);
@@ -55,9 +56,10 @@
             // 
             this.radiusLabel.AutoSize = true;
             this.radiusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radiusLabel.Location = new System.Drawing.Point(238, 226);
+            this.radiusLabel.Location = new System.Drawing.Point(178, 184);
+            this.radiusLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.radiusLabel.Name = "radiusLabel";
-            this.radiusLabel.Size = new System.Drawing.Size(181, 29);
+            this.radiusLabel.Size = new System.Drawing.Size(142, 24);
             this.radiusLabel.TabIndex = 1;
             this.radiusLabel.Text = "Enter the radius";
             // 
@@ -65,31 +67,35 @@
             // 
             this.heightLabel.AutoSize = true;
             this.heightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.heightLabel.Location = new System.Drawing.Point(238, 278);
+            this.heightLabel.Location = new System.Drawing.Point(178, 226);
+            this.heightLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.heightLabel.Name = "heightLabel";
-            this.heightLabel.Size = new System.Drawing.Size(181, 29);
+            this.heightLabel.Size = new System.Drawing.Size(143, 24);
             this.heightLabel.TabIndex = 2;
             this.heightLabel.Text = "Enter the height";
             // 
             // getRadius
             // 
-            this.getRadius.Location = new System.Drawing.Point(505, 223);
+            this.getRadius.Location = new System.Drawing.Point(379, 181);
+            this.getRadius.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.getRadius.Name = "getRadius";
-            this.getRadius.Size = new System.Drawing.Size(100, 22);
+            this.getRadius.Size = new System.Drawing.Size(76, 20);
             this.getRadius.TabIndex = 3;
             // 
             // getHeight
             // 
-            this.getHeight.Location = new System.Drawing.Point(505, 278);
+            this.getHeight.Location = new System.Drawing.Point(379, 226);
+            this.getHeight.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.getHeight.Name = "getHeight";
-            this.getHeight.Size = new System.Drawing.Size(100, 22);
+            this.getHeight.Size = new System.Drawing.Size(76, 20);
             this.getHeight.TabIndex = 4;
             // 
             // calculateButton
             // 
-            this.calculateButton.Location = new System.Drawing.Point(717, 223);
+            this.calculateButton.Location = new System.Drawing.Point(538, 181);
+            this.calculateButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.calculateButton.Name = "calculateButton";
-            this.calculateButton.Size = new System.Drawing.Size(95, 53);
+            this.calculateButton.Size = new System.Drawing.Size(71, 43);
             this.calculateButton.TabIndex = 5;
             this.calculateButton.Text = "Calculate";
             this.calculateButton.UseVisualStyleBackColor = true;
@@ -99,25 +105,27 @@
             // 
             this.showArea.AutoSize = true;
             this.showArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showArea.Location = new System.Drawing.Point(236, 394);
+            this.showArea.Location = new System.Drawing.Point(177, 320);
+            this.showArea.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.showArea.Name = "showArea";
-            this.showArea.Size = new System.Drawing.Size(0, 29);
+            this.showArea.Size = new System.Drawing.Size(0, 24);
             this.showArea.TabIndex = 6;
             // 
             // showVolume
             // 
             this.showVolume.AutoSize = true;
             this.showVolume.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showVolume.Location = new System.Drawing.Point(236, 489);
+            this.showVolume.Location = new System.Drawing.Point(177, 397);
+            this.showVolume.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.showVolume.Name = "showVolume";
-            this.showVolume.Size = new System.Drawing.Size(0, 29);
+            this.showVolume.Size = new System.Drawing.Size(0, 24);
             this.showVolume.TabIndex = 7;
             // 
             // CylinderForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1077, 596);
+            this.ClientSize = new System.Drawing.Size(809, 491);
             this.Controls.Add(this.showVolume);
             this.Controls.Add(this.showArea);
             this.Controls.Add(this.calculateButton);
@@ -128,11 +136,12 @@
             this.Controls.Add(this.cylinderBackButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(1099, 647);
-            this.MinimumSize = new System.Drawing.Size(1099, 647);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximumSize = new System.Drawing.Size(829, 534);
+            this.MinimumSize = new System.Drawing.Size(829, 534);
             this.Name = "CylinderForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CylinderForm";
+            this.Text = "Cylinder";
             this.ResumeLayout(false);
             this.PerformLayout();
 

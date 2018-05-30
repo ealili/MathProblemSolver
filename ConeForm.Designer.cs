@@ -43,9 +43,10 @@
             // 
             this.radiusLabel.AutoSize = true;
             this.radiusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radiusLabel.Location = new System.Drawing.Point(293, 244);
+            this.radiusLabel.Location = new System.Drawing.Point(220, 198);
+            this.radiusLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.radiusLabel.Name = "radiusLabel";
-            this.radiusLabel.Size = new System.Drawing.Size(181, 29);
+            this.radiusLabel.Size = new System.Drawing.Size(142, 24);
             this.radiusLabel.TabIndex = 0;
             this.radiusLabel.Text = "Enter the radius";
             // 
@@ -53,17 +54,19 @@
             // 
             this.heightLabel.AutoSize = true;
             this.heightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.heightLabel.Location = new System.Drawing.Point(293, 296);
+            this.heightLabel.Location = new System.Drawing.Point(220, 240);
+            this.heightLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.heightLabel.Name = "heightLabel";
-            this.heightLabel.Size = new System.Drawing.Size(181, 29);
+            this.heightLabel.Size = new System.Drawing.Size(143, 24);
             this.heightLabel.TabIndex = 1;
             this.heightLabel.Text = "Enter the height";
             // 
             // calculateButton
             // 
-            this.calculateButton.Location = new System.Drawing.Point(736, 262);
+            this.calculateButton.Location = new System.Drawing.Point(552, 213);
+            this.calculateButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.calculateButton.Name = "calculateButton";
-            this.calculateButton.Size = new System.Drawing.Size(98, 38);
+            this.calculateButton.Size = new System.Drawing.Size(74, 31);
             this.calculateButton.TabIndex = 2;
             this.calculateButton.Text = "Calculate";
             this.calculateButton.UseVisualStyleBackColor = true;
@@ -71,52 +74,57 @@
             // 
             // getRadius
             // 
-            this.getRadius.Location = new System.Drawing.Point(539, 250);
+            this.getRadius.Location = new System.Drawing.Point(404, 203);
+            this.getRadius.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.getRadius.Name = "getRadius";
-            this.getRadius.Size = new System.Drawing.Size(100, 22);
+            this.getRadius.Size = new System.Drawing.Size(76, 20);
             this.getRadius.TabIndex = 3;
             // 
             // getHeight
             // 
-            this.getHeight.Location = new System.Drawing.Point(539, 302);
+            this.getHeight.Location = new System.Drawing.Point(404, 245);
+            this.getHeight.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.getHeight.Name = "getHeight";
-            this.getHeight.Size = new System.Drawing.Size(100, 22);
+            this.getHeight.Size = new System.Drawing.Size(76, 20);
             this.getHeight.TabIndex = 4;
             // 
             // showArea
             // 
             this.showArea.AutoSize = true;
             this.showArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showArea.Location = new System.Drawing.Point(295, 412);
+            this.showArea.Location = new System.Drawing.Point(221, 335);
+            this.showArea.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.showArea.Name = "showArea";
-            this.showArea.Size = new System.Drawing.Size(0, 29);
+            this.showArea.Size = new System.Drawing.Size(0, 24);
             this.showArea.TabIndex = 5;
             // 
             // showVolume
             // 
             this.showVolume.AutoSize = true;
             this.showVolume.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showVolume.Location = new System.Drawing.Point(295, 475);
+            this.showVolume.Location = new System.Drawing.Point(221, 386);
+            this.showVolume.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.showVolume.Name = "showVolume";
-            this.showVolume.Size = new System.Drawing.Size(0, 29);
+            this.showVolume.Size = new System.Drawing.Size(0, 24);
             this.showVolume.TabIndex = 6;
             // 
             // coneBackButton
             // 
             this.coneBackButton.AutoSize = true;
             this.coneBackButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coneBackButton.Location = new System.Drawing.Point(74, 132);
+            this.coneBackButton.Location = new System.Drawing.Point(56, 107);
+            this.coneBackButton.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.coneBackButton.Name = "coneBackButton";
-            this.coneBackButton.Size = new System.Drawing.Size(86, 29);
+            this.coneBackButton.Size = new System.Drawing.Size(67, 24);
             this.coneBackButton.TabIndex = 7;
             this.coneBackButton.Text = "< Back";
             this.coneBackButton.Click += new System.EventHandler(this.coneBackButton_Click);
             // 
             // ConeForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1077, 596);
+            this.ClientSize = new System.Drawing.Size(809, 491);
             this.Controls.Add(this.coneBackButton);
             this.Controls.Add(this.showVolume);
             this.Controls.Add(this.showArea);
@@ -127,11 +135,12 @@
             this.Controls.Add(this.radiusLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(1099, 647);
-            this.MinimumSize = new System.Drawing.Size(1099, 647);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximumSize = new System.Drawing.Size(829, 534);
+            this.MinimumSize = new System.Drawing.Size(829, 534);
             this.Name = "ConeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ConeForm";
+            this.Text = "Cone";
             this.ResumeLayout(false);
             this.PerformLayout();
 

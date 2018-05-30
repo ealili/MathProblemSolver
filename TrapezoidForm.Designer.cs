@@ -199,7 +199,7 @@
             this.MinimumSize = new System.Drawing.Size(829, 535);
             this.Name = "TrapezoidForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TrapezoidForm";
+            this.Text = "Trapezoid";
             this.ResumeLayout(false);
             this.PerformLayout();
 
