@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace MathProblemSolver
 {
@@ -10,7 +11,7 @@ namespace MathProblemSolver
     {
         public abstract double calculatePerimeter();
         public abstract double calculateArea();
-   
+
         internal static string setPrecision(double value)
         {
             string ret = value.ToString();

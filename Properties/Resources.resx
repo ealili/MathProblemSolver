@@ -118,7 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="2D_square" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2D_square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="2D_triangle_2nd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\2D_triangle_2nd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2D_trianglee_2nd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\2D_trianglee_2nd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3D_cone_2nd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\3D_cone_2nd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2D_parallelogramm_2nd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\2D_parallelogramm_2nd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2D_trapezoid_2nd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\2D_trapezoid_2nd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2D_square_2nd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\2D_square_2nd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2D_parallelogram_2nd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\2D_parallelogram_2nd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2D_circle_2nd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\2D_circle_2nd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3D_cube_2nd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\3D_cube_2nd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3D_cylinder_2nd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\3D_cylinder_2nd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2D_rectangle_2nd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\2D_rectangle_2nd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3D_sphere_2nd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\3D_sphere_2nd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3D_cuboid_2nd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\3D_cuboid_2nd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2D_trapezoidd_2nd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\2D_trapezoidd_2nd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3D_squareBasedPyramid_2nd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\3D_squareBasedPyramid_2nd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

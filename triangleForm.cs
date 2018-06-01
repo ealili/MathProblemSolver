@@ -31,13 +31,18 @@ namespace MathProblemSolver
             }
             catch
             {
-                MessageBox.Show("Invalid Input", "Warning");
-                showArea.Text = "";
-                showPerimeter.Text = "";
-                getBase.Text = "";
-                getSide1.Text = "";
-                getSide2.Text = "";
+                errorWindow();
             }
+        }
+
+        public void errorWindow()
+        {
+            MessageBox.Show("Invalid Input", "Warning");
+            showArea.Text = "";
+            showPerimeter.Text = "";
+            getBase.Text = "";
+            getSide1.Text = "";
+            getSide2.Text = "";
         }
 
         private void triangleBackButton_Click(object sender, EventArgs e)

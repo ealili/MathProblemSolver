@@ -31,13 +31,13 @@
             System.Windows.Forms.Label choosingLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_2dForm));
             this.twoDBackButton = new System.Windows.Forms.Label();
-            this.triangleButton = new System.Windows.Forms.Button();
-            this.squareButton = new System.Windows.Forms.Button();
-            this.rectangleButton = new System.Windows.Forms.Button();
-            this.circleButton = new System.Windows.Forms.Button();
-            this.trapezoidButton = new System.Windows.Forms.Button();
-            this.parallelogramButton = new System.Windows.Forms.Button();
             this.titleLabel = new System.Windows.Forms.Label();
+            this.parallelogramButton = new System.Windows.Forms.Button();
+            this.trapezoidButton = new System.Windows.Forms.Button();
+            this.circleButton = new System.Windows.Forms.Button();
+            this.rectangleButton = new System.Windows.Forms.Button();
+            this.squareButton = new System.Windows.Forms.Button();
+            this.triangleButton = new System.Windows.Forms.Button();
             choosingLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -67,67 +67,6 @@
             this.twoDBackButton.Text = "< Back";
             this.twoDBackButton.Click += new System.EventHandler(this.label2_Click);
             // 
-            // triangleButton
-            // 
-            this.triangleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.triangleButton.Location = new System.Drawing.Point(360, 252);
-            this.triangleButton.Name = "triangleButton";
-            this.triangleButton.Size = new System.Drawing.Size(75, 23);
-            this.triangleButton.TabIndex = 8;
-            this.triangleButton.Text = "Triangle";
-            this.triangleButton.UseVisualStyleBackColor = true;
-            this.triangleButton.Click += new System.EventHandler(this.triangleButton_Click);
-            // 
-            // squareButton
-            // 
-            this.squareButton.Location = new System.Drawing.Point(116, 253);
-            this.squareButton.Name = "squareButton";
-            this.squareButton.Size = new System.Drawing.Size(75, 23);
-            this.squareButton.TabIndex = 9;
-            this.squareButton.Text = "Square";
-            this.squareButton.UseVisualStyleBackColor = true;
-            this.squareButton.Click += new System.EventHandler(this.squareButton_Click);
-            // 
-            // rectangleButton
-            // 
-            this.rectangleButton.Location = new System.Drawing.Point(578, 253);
-            this.rectangleButton.Name = "rectangleButton";
-            this.rectangleButton.Size = new System.Drawing.Size(75, 23);
-            this.rectangleButton.TabIndex = 10;
-            this.rectangleButton.Text = "Rectangle";
-            this.rectangleButton.UseVisualStyleBackColor = true;
-            this.rectangleButton.Click += new System.EventHandler(this.rectangleButton_Click);
-            // 
-            // circleButton
-            // 
-            this.circleButton.Location = new System.Drawing.Point(116, 377);
-            this.circleButton.Name = "circleButton";
-            this.circleButton.Size = new System.Drawing.Size(75, 23);
-            this.circleButton.TabIndex = 11;
-            this.circleButton.Text = "Circle";
-            this.circleButton.UseVisualStyleBackColor = true;
-            this.circleButton.Click += new System.EventHandler(this.circleButton_Click);
-            // 
-            // trapezoidButton
-            // 
-            this.trapezoidButton.Location = new System.Drawing.Point(360, 377);
-            this.trapezoidButton.Name = "trapezoidButton";
-            this.trapezoidButton.Size = new System.Drawing.Size(75, 23);
-            this.trapezoidButton.TabIndex = 12;
-            this.trapezoidButton.Text = "Trapezoid";
-            this.trapezoidButton.UseVisualStyleBackColor = true;
-            this.trapezoidButton.Click += new System.EventHandler(this.trapezoidButton_Click);
-            // 
-            // parallelogramButton
-            // 
-            this.parallelogramButton.Location = new System.Drawing.Point(578, 377);
-            this.parallelogramButton.Name = "parallelogramButton";
-            this.parallelogramButton.Size = new System.Drawing.Size(84, 23);
-            this.parallelogramButton.TabIndex = 13;
-            this.parallelogramButton.Text = "Parallelogram";
-            this.parallelogramButton.UseVisualStyleBackColor = true;
-            this.parallelogramButton.Click += new System.EventHandler(this.parallelogramButton_Click);
-            // 
             // titleLabel
             // 
             this.titleLabel.AutoSize = true;
@@ -141,6 +80,90 @@
             this.titleLabel.TabIndex = 15;
             this.titleLabel.Text = "2D Shapes";
             this.titleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // parallelogramButton
+            // 
+            this.parallelogramButton.AutoSize = true;
+            this.parallelogramButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.parallelogramButton.FlatAppearance.BorderSize = 0;
+            this.parallelogramButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.parallelogramButton.Image = global::MathProblemSolver.Properties.Resources._2D_parallelogramm_2nd;
+            this.parallelogramButton.Location = new System.Drawing.Point(578, 343);
+            this.parallelogramButton.Name = "parallelogramButton";
+            this.parallelogramButton.Size = new System.Drawing.Size(146, 111);
+            this.parallelogramButton.TabIndex = 13;
+            this.parallelogramButton.UseVisualStyleBackColor = true;
+            this.parallelogramButton.Click += new System.EventHandler(this.parallelogramButton_Click);
+            // 
+            // trapezoidButton
+            // 
+            this.trapezoidButton.AutoSize = true;
+            this.trapezoidButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.trapezoidButton.FlatAppearance.BorderSize = 0;
+            this.trapezoidButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.trapezoidButton.Image = global::MathProblemSolver.Properties.Resources._2D_trapezoidd_2nd;
+            this.trapezoidButton.Location = new System.Drawing.Point(334, 343);
+            this.trapezoidButton.Name = "trapezoidButton";
+            this.trapezoidButton.Size = new System.Drawing.Size(146, 111);
+            this.trapezoidButton.TabIndex = 12;
+            this.trapezoidButton.UseVisualStyleBackColor = true;
+            this.trapezoidButton.Click += new System.EventHandler(this.trapezoidButton_Click);
+            // 
+            // circleButton
+            // 
+            this.circleButton.AutoSize = true;
+            this.circleButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.circleButton.FlatAppearance.BorderSize = 0;
+            this.circleButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.circleButton.Image = global::MathProblemSolver.Properties.Resources._2D_circle_2nd;
+            this.circleButton.Location = new System.Drawing.Point(116, 343);
+            this.circleButton.Name = "circleButton";
+            this.circleButton.Size = new System.Drawing.Size(111, 111);
+            this.circleButton.TabIndex = 11;
+            this.circleButton.UseVisualStyleBackColor = true;
+            this.circleButton.Click += new System.EventHandler(this.circleButton_Click);
+            // 
+            // rectangleButton
+            // 
+            this.rectangleButton.AutoSize = true;
+            this.rectangleButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rectangleButton.FlatAppearance.BorderSize = 0;
+            this.rectangleButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rectangleButton.Image = global::MathProblemSolver.Properties.Resources._2D_rectangle_2nd;
+            this.rectangleButton.Location = new System.Drawing.Point(576, 197);
+            this.rectangleButton.Name = "rectangleButton";
+            this.rectangleButton.Size = new System.Drawing.Size(148, 113);
+            this.rectangleButton.TabIndex = 10;
+            this.rectangleButton.UseVisualStyleBackColor = true;
+            this.rectangleButton.Click += new System.EventHandler(this.rectangleButton_Click);
+            // 
+            // squareButton
+            // 
+            this.squareButton.AutoSize = true;
+            this.squareButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.squareButton.FlatAppearance.BorderSize = 0;
+            this.squareButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.squareButton.Image = global::MathProblemSolver.Properties.Resources._2D_square_2nd;
+            this.squareButton.Location = new System.Drawing.Point(116, 191);
+            this.squareButton.Name = "squareButton";
+            this.squareButton.Size = new System.Drawing.Size(111, 111);
+            this.squareButton.TabIndex = 9;
+            this.squareButton.UseVisualStyleBackColor = true;
+            this.squareButton.Click += new System.EventHandler(this.squareButton_Click);
+            // 
+            // triangleButton
+            // 
+            this.triangleButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.triangleButton.FlatAppearance.BorderSize = 0;
+            this.triangleButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.triangleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.triangleButton.Image = global::MathProblemSolver.Properties.Resources._2D_trianglee_2nd;
+            this.triangleButton.Location = new System.Drawing.Point(353, 193);
+            this.triangleButton.Name = "triangleButton";
+            this.triangleButton.Size = new System.Drawing.Size(105, 105);
+            this.triangleButton.TabIndex = 8;
+            this.triangleButton.UseVisualStyleBackColor = true;
+            this.triangleButton.Click += new System.EventHandler(this.triangleButton_Click);
             // 
             // _2dForm
             // 

@@ -106,7 +106,11 @@
       <DependentUpon>ParallelogramForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="PyramidForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -182,12 +186,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="PyramidForm.resx">
       <DependentUpon>PyramidForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -206,18 +205,54 @@
     <EmbeddedResource Include="triangleForm.resx">
       <DependentUpon>triangleForm.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2D_triangle_2nd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2D_square_2nd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2D_rectangle_2nd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2D_circle_2nd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2D_trapezoid_2nd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2D_parallelogram_2nd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2D_trianglee_2nd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2D_trapezoidd_2nd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2D_parallelogramm_2nd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3D_cube_2nd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3D_cuboid_2nd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3D_cylinder_2nd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3D_cone_2nd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3D_sphere_2nd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3D_squareBasedPyramid_2nd.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

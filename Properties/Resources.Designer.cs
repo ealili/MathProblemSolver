@@ -63,9 +63,149 @@ namespace MathProblemSolver.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _2D_square {
+        internal static System.Drawing.Bitmap _2D_circle_2nd {
             get {
-                object obj = ResourceManager.GetObject("2D_square", resourceCulture);
+                object obj = ResourceManager.GetObject("2D_circle_2nd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2D_parallelogram_2nd {
+            get {
+                object obj = ResourceManager.GetObject("2D_parallelogram_2nd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2D_parallelogramm_2nd {
+            get {
+                object obj = ResourceManager.GetObject("2D_parallelogramm_2nd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2D_rectangle_2nd {
+            get {
+                object obj = ResourceManager.GetObject("2D_rectangle_2nd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2D_square_2nd {
+            get {
+                object obj = ResourceManager.GetObject("2D_square_2nd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2D_trapezoid_2nd {
+            get {
+                object obj = ResourceManager.GetObject("2D_trapezoid_2nd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2D_trapezoidd_2nd {
+            get {
+                object obj = ResourceManager.GetObject("2D_trapezoidd_2nd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2D_triangle_2nd {
+            get {
+                object obj = ResourceManager.GetObject("2D_triangle_2nd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2D_trianglee_2nd {
+            get {
+                object obj = ResourceManager.GetObject("2D_trianglee_2nd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3D_cone_2nd {
+            get {
+                object obj = ResourceManager.GetObject("3D_cone_2nd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3D_cube_2nd {
+            get {
+                object obj = ResourceManager.GetObject("3D_cube_2nd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3D_cuboid_2nd {
+            get {
+                object obj = ResourceManager.GetObject("3D_cuboid_2nd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3D_cylinder_2nd {
+            get {
+                object obj = ResourceManager.GetObject("3D_cylinder_2nd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3D_sphere_2nd {
+            get {
+                object obj = ResourceManager.GetObject("3D_sphere_2nd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3D_squareBasedPyramid_2nd {
+            get {
+                object obj = ResourceManager.GetObject("3D_squareBasedPyramid_2nd", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
