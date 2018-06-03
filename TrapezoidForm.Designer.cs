@@ -50,11 +50,11 @@
             // 
             this.trapezoidBackButton.AutoSize = true;
             this.trapezoidBackButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.trapezoidBackButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.trapezoidBackButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.trapezoidBackButton.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.trapezoidBackButton.Location = new System.Drawing.Point(12, 120);
             this.trapezoidBackButton.Name = "trapezoidBackButton";
-            this.trapezoidBackButton.Size = new System.Drawing.Size(73, 24);
+            this.trapezoidBackButton.Size = new System.Drawing.Size(67, 24);
             this.trapezoidBackButton.TabIndex = 0;
             this.trapezoidBackButton.Text = "< Back";
             this.trapezoidBackButton.Click += new System.EventHandler(this.trapezoidBackButton_Click);
@@ -89,7 +89,7 @@
             this.side1Label.AutoSize = true;
             this.side1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.side1Label.ForeColor = System.Drawing.Color.White;
-            this.side1Label.Location = new System.Drawing.Point(176, 184);
+            this.side1Label.Location = new System.Drawing.Point(176, 188);
             this.side1Label.Name = "side1Label";
             this.side1Label.Size = new System.Drawing.Size(90, 20);
             this.side1Label.TabIndex = 3;
@@ -100,7 +100,7 @@
             this.side2Label.AutoSize = true;
             this.side2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.side2Label.ForeColor = System.Drawing.Color.White;
-            this.side2Label.Location = new System.Drawing.Point(176, 219);
+            this.side2Label.Location = new System.Drawing.Point(176, 228);
             this.side2Label.Name = "side2Label";
             this.side2Label.Size = new System.Drawing.Size(117, 20);
             this.side2Label.TabIndex = 4;
@@ -111,7 +111,7 @@
             this.side3Label.AutoSize = true;
             this.side3Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.side3Label.ForeColor = System.Drawing.Color.White;
-            this.side3Label.Location = new System.Drawing.Point(176, 248);
+            this.side3Label.Location = new System.Drawing.Point(176, 264);
             this.side3Label.Name = "side3Label";
             this.side3Label.Size = new System.Drawing.Size(121, 20);
             this.side3Label.TabIndex = 5;
@@ -120,42 +120,54 @@
             // getBase
             // 
             this.getBase.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.getBase.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.getBase.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.getBase.Location = new System.Drawing.Point(387, 145);
             this.getBase.Name = "getBase";
-            this.getBase.Size = new System.Drawing.Size(100, 20);
+            this.getBase.Size = new System.Drawing.Size(100, 24);
             this.getBase.TabIndex = 6;
             this.getBase.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // getSide1
             // 
             this.getSide1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.getSide1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.getSide1.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.getSide1.Location = new System.Drawing.Point(387, 184);
             this.getSide1.Name = "getSide1";
-            this.getSide1.Size = new System.Drawing.Size(100, 20);
+            this.getSide1.Size = new System.Drawing.Size(100, 24);
             this.getSide1.TabIndex = 7;
+            this.getSide1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // getSide2
             // 
             this.getSide2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.getSide2.Location = new System.Drawing.Point(387, 219);
+            this.getSide2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.getSide2.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            this.getSide2.Location = new System.Drawing.Point(387, 224);
             this.getSide2.Name = "getSide2";
-            this.getSide2.Size = new System.Drawing.Size(100, 20);
+            this.getSide2.Size = new System.Drawing.Size(100, 24);
             this.getSide2.TabIndex = 8;
+            this.getSide2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // getSide3
             // 
             this.getSide3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.getSide3.Location = new System.Drawing.Point(387, 248);
+            this.getSide3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.getSide3.ForeColor = System.Drawing.Color.MediumSpringGreen;
+            this.getSide3.Location = new System.Drawing.Point(387, 260);
             this.getSide3.Name = "getSide3";
-            this.getSide3.Size = new System.Drawing.Size(100, 20);
+            this.getSide3.Size = new System.Drawing.Size(100, 24);
             this.getSide3.TabIndex = 9;
+            this.getSide3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // calculateButton
             // 
             this.calculateButton.FlatAppearance.BorderColor = System.Drawing.Color.MediumSpringGreen;
             this.calculateButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.calculateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.calculateButton.ForeColor = System.Drawing.Color.White;
-            this.calculateButton.Location = new System.Drawing.Point(590, 191);
+            this.calculateButton.Location = new System.Drawing.Point(591, 224);
             this.calculateButton.Name = "calculateButton";
             this.calculateButton.Size = new System.Drawing.Size(114, 41);
             this.calculateButton.TabIndex = 10;
@@ -166,17 +178,21 @@
             // showArea
             // 
             this.showArea.AutoSize = true;
+            this.showArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showArea.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.showArea.Location = new System.Drawing.Point(174, 359);
             this.showArea.Name = "showArea";
-            this.showArea.Size = new System.Drawing.Size(0, 13);
+            this.showArea.Size = new System.Drawing.Size(0, 24);
             this.showArea.TabIndex = 11;
             // 
             // showPerimeter
             // 
             this.showPerimeter.AutoSize = true;
+            this.showPerimeter.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showPerimeter.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.showPerimeter.Location = new System.Drawing.Point(174, 418);
             this.showPerimeter.Name = "showPerimeter";
-            this.showPerimeter.Size = new System.Drawing.Size(0, 13);
+            this.showPerimeter.Size = new System.Drawing.Size(0, 24);
             this.showPerimeter.TabIndex = 12;
             // 
             // heightLabel
@@ -184,7 +200,7 @@
             this.heightLabel.AutoSize = true;
             this.heightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.heightLabel.ForeColor = System.Drawing.Color.White;
-            this.heightLabel.Location = new System.Drawing.Point(176, 282);
+            this.heightLabel.Location = new System.Drawing.Point(176, 298);
             this.heightLabel.Name = "heightLabel";
             this.heightLabel.Size = new System.Drawing.Size(127, 20);
             this.heightLabel.TabIndex = 13;
@@ -193,10 +209,12 @@
             // getHeight
             // 
             this.getHeight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.getHeight.Location = new System.Drawing.Point(387, 279);
+            this.getHeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.getHeight.Location = new System.Drawing.Point(387, 296);
             this.getHeight.Name = "getHeight";
-            this.getHeight.Size = new System.Drawing.Size(100, 20);
+            this.getHeight.Size = new System.Drawing.Size(100, 24);
             this.getHeight.TabIndex = 14;
+            this.getHeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TrapezoidForm
             // 
