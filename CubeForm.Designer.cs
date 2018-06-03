@@ -104,7 +104,7 @@
             this.showArea.AutoSize = true;
             this.showArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.showArea.ForeColor = System.Drawing.Color.MediumSpringGreen;
-            this.showArea.Location = new System.Drawing.Point(159, 412);
+            this.showArea.Location = new System.Drawing.Point(158, 391);
             this.showArea.Name = "showArea";
             this.showArea.Size = new System.Drawing.Size(0, 24);
             this.showArea.TabIndex = 5;
