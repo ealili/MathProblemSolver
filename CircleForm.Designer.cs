@@ -94,11 +94,11 @@
             // 
             this.calculateButton.FlatAppearance.BorderColor = System.Drawing.Color.MediumSpringGreen;
             this.calculateButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.calculateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.calculateButton.Location = new System.Drawing.Point(545, 236);
+            this.calculateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calculateButton.Location = new System.Drawing.Point(548, 229);
             this.calculateButton.MinimumSize = new System.Drawing.Size(105, 24);
             this.calculateButton.Name = "calculateButton";
-            this.calculateButton.Size = new System.Drawing.Size(105, 24);
+            this.calculateButton.Size = new System.Drawing.Size(120, 40);
             this.calculateButton.TabIndex = 4;
             this.calculateButton.Text = "Calculate";
             this.calculateButton.UseVisualStyleBackColor = true;
@@ -138,6 +138,7 @@
             this.Controls.Add(this.radiusLabel);
             this.Controls.Add(this.circleBackLabel);
             this.ForeColor = System.Drawing.Color.White;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(828, 534);
             this.MinimumSize = new System.Drawing.Size(828, 534);

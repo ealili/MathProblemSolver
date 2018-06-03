@@ -45,6 +45,7 @@
             // parallelogramBackButton
             // 
             this.parallelogramBackButton.AutoSize = true;
+            this.parallelogramBackButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.parallelogramBackButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.parallelogramBackButton.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.parallelogramBackButton.Location = new System.Drawing.Point(12, 120);
@@ -95,6 +96,7 @@
             // 
             this.getSide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.getSide.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.getSide.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.getSide.Location = new System.Drawing.Point(362, 240);
             this.getSide.Margin = new System.Windows.Forms.Padding(2);
             this.getSide.Name = "getSide";
@@ -156,6 +158,7 @@
             // 
             this.getHeight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.getHeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.getHeight.ForeColor = System.Drawing.Color.MediumSpringGreen;
             this.getHeight.Location = new System.Drawing.Point(362, 283);
             this.getHeight.Margin = new System.Windows.Forms.Padding(2);
             this.getHeight.Name = "getHeight";
